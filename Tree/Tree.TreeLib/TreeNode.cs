@@ -4,6 +4,7 @@
  * 创建日期：2017/4/19 12:20:32
  * ==============================================================================*/
 
+using System;
 namespace Tree.TreeLib
 {
     /// <summary>
@@ -21,25 +22,27 @@ namespace Tree.TreeLib
         public TreeNode left;
         public TreeNode right;
 
-        /// <summary>
-        /// 构建树
-        /// </summary>
-        /// <param name="nums">数组，无左右子树，用null表示</param>
-        /// <returns>树根</returns>
-        public static  TreeNode buildTree(object[] nums)
+        public bool isLeaf()
         {
-            return build(nums, 0);
+            return left == null && right == null;
         }
 
-        private static  TreeNode build(object[] nums, int i)
+        public int Height
         {
-            if (i>=nums.Length || nums[i] == null)
-                return null;
-            TreeNode root = new TreeNode((int)nums[i]);
-            root.left = build(nums, 2*i + 1);
-            root.right = build(nums, 2*i + 2);
-            return root;
+            get
+            {
+                if (this == null)
+                    return 0;
+                return 1 + Math.Max(height(this.left), height(this.right));
+            }
         }
+        private int height(TreeNode node)
+        {
+            if (node == null)
+                return 0;
+            return 1 + Math.Max(height(node.left), height(node.right));
+        }
+
     }
 
 

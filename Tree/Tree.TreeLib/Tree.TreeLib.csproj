@@ -40,10 +40,26 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BanlancedTree.cs" />
+    <Compile Include="CommonAncester.cs" />
+    <Compile Include="DiameterTree.cs" />
+    <Compile Include="FindModes.cs" />
+    <Compile Include="InvertTree.cs" />
+    <Compile Include="LeftLeafSum.cs" />
+    <Compile Include="MaxMinDepth.cs" />
+    <Compile Include="OnePathSum.cs" />
+    <Compile Include="SortArrayToBalanced.cs" />
+    <Compile Include="SymmetricTree .cs" />
+    <Compile Include="TreePaths.cs" />
     <Compile Include="LevelOrderTraversal.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SameTree.cs" />
     <Compile Include="TreeNode.cs" />
+    <Compile Include="TreePathSum.cs" />
     <Compile Include="TreeTools.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="leetcode-tree.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

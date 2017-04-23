@@ -25,7 +25,7 @@ namespace Tree.TreeLib
 
         private static  TreeNode build(object[] nums, int i)
         {
-            if (i>=nums.Length || nums[i] == null)
+            if (i >= nums.Length || nums[i] == null)
                 return null;
             TreeNode root = new TreeNode((int)nums[i]);
             root.left = build(nums, 2*i + 1);
