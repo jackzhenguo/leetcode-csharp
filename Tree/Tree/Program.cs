@@ -13,9 +13,8 @@ namespace Tree
     {
         static void Main(string[] args)
         {
-
-
-
+            testTree test = new testTree();
+            test.IsSymmetricTreeTest();
         }
     }
 }
