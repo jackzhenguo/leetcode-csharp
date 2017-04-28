@@ -111,6 +111,13 @@ namespace Tree.test
             bool sym = test.IsSymmetric(root);
         }
 
+        public void OrderUsingStack()
+        {
+            TreeNode root = buildTreeTest(new object[] { 1, 2, 3,4,5,6,7 });
+            TraversalTreeUsingStack test = new TraversalTreeUsingStack();
+            test.PostOrder(root);
+        }
+
     }
 
 

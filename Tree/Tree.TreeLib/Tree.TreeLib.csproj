@@ -50,6 +50,7 @@
     <Compile Include="OnePathSum.cs" />
     <Compile Include="SortArrayToBalanced.cs" />
     <Compile Include="SymmetricTree .cs" />
+    <Compile Include="TraversalTreeUsingStack.cs" />
     <Compile Include="TreePaths.cs" />
     <Compile Include="LevelOrderTraversal.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
