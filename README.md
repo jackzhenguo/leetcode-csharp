@@ -1,15 +1,16 @@
 # leetcode-csharp
 solutions using C# for leetcode according to tags of questions
 Tags are following:  
-* Array
-* Hash Table
-* Linked List
-* Math
-* Two Pointers
+* [Array](/Array)
+* [Hash Table](/HashTable)
+* [Linked List](/LinkedList)
+* [Math](/Math)
+* [Two Pointers](/TwoPointers)
 * String
 * Binary Search
 * Divide and Conquer
-* Dynamic Programming
+* [Dynamic Programming](/DP)
 * Backtracking
-* Stack
+* [Stack](/Stack)
+* [Tree]/(/Tree)
 
