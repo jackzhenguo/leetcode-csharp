@@ -6,11 +6,9 @@ Tags are following:
 * [Linked List](/LinkedList)
 * [Math](/Math)
 * [Two Pointers](/TwoPointers)
-* String
-* Binary Search
-* Divide and Conquer
+* [String](/String)
+* [Binary Search](/BinarySearch)
 * [Dynamic Programming](/DP)
-* Backtracking
 * [Stack](/Stack)
 * [Tree](/Tree)
 
@@ -858,4 +856,193 @@ public bool CanConstruct(string ransomNote, string magazine)
             return true;
         }
 ```
+
+## Binary Search
+* [#367 Valid Perfect Square](http://blog.csdn.net/daigualu/article/details/69787644)
+```
+public bool IsPerfectSquare(int num)
+        {
+            int low = 1, high = num;
+            while (low <= high)
+            {
+                long mid = (low + high) >> 1;
+                if (mid * mid == num)
+                {
+                    return true;
+                }
+                else if (mid * mid < num)
+                {
+                    low = (int)mid + 1;
+                }
+                else
+                {
+                    high = (int)mid - 1;
+                }
+            }
+            return false;
+        }
+```
+* [#167 Two Sum II - Input array is sorted](http://blog.csdn.net/daigualu/article/details/69787679)
+```
+ public int[] TwoSum2(int[] num, int target)
+        {
+            //因为一定存在解，所以不做边界检查
+            int left = 0, right = num.Length - 1;
+            while (left < right)
+            {
+                int v = num[left] + num[right];
+                if (v == target)
+                    return new int[2] { left + 1, right + 1 };
+                else if (v > target)
+                    right--;
+                else
+                    left++;
+            }
+            return new int[] { };
+        }
+```
+* [#441 Arranging Coins](http://blog.csdn.net/daigualu/article/details/69788500)
+```
+ public int ArrangeCoins(int n) 
+ {
+            long low = 1, high = n; 
+            while (low < high)
+            {
+            //mid的类型为Long，一定注意！
+                long mid = low + (high - low + 1) / 2;
+                if ((mid + 1) * mid / 2.0 <= n) 
+                    low = mid;
+                else high = mid - 1;
+            }
+            return (int)high;
+    }
+```
+
+* [#278 First Bad Version](http://blog.csdn.net/daigualu/article/details/69802371)
+```
+     public int FirstBadVersion(int n)
+        {
+            long lo = 0; //指向好的版本
+            long hi = n; //指向坏的版本
+            long mid;
+            while (hi - lo > 1)
+            {
+                mid = (lo + hi) >> 1; //写为这样就不怕溢出(lo + (hi-lo)/2)
+                if (IsBadVersion(mid))
+                    hi = mid;
+                else 
+                    lo = mid;
+            }
+            return (int)hi;
+        }
+```
+
+* [#349 Intersection of Two Arrays 350. Intersection of Two Arrays II](http://blog.csdn.net/daigualu/article/details/69666351)
+
+```
+ //交集定义，元素可重复
+        public int[] Intersection(int[] nums1, int[] nums2)
+        {
+            if (nums1 == null || nums1.Length == 0) return new int[] { };
+            if (nums2 == null || nums2.Length == 0) return new int[] { };
+            nums1 = nums1.OrderBy(r => r).ToArray(); //升序排列
+            nums2 = nums2.OrderBy(r => r).ToArray();
+
+            int n = nums1.Length < nums2.Length ? nums1.Length : nums2.Length;
+            List<int> rtn = new List<int>();
+            if (nums1.Length < nums2.Length)
+            {
+                rtn = getIntersection(nums1, nums2);
+            }
+            else
+                rtn = getIntersection(nums2, nums1);
+            return rtn.ToArray();
+        }
+	 //二分查找插入位置（相等元素，新插入位置靠后）
+        //beginIndex：查询的起始位置
+        private int searchInsertIndex(int[] sorted, int lo, int e)
+        {
+            int hi = sorted.Length;
+            while (lo < hi)
+            {
+                int mi = (lo + hi) >> 1;
+                if (e < sorted[mi])
+                    hi = mi;
+                else
+                    lo = mi + 1;
+            }
+            return lo;
+        }
+	  //nums1个数小于后者得到交集
+        private List<int> getIntersection(int[] nums1, int[] nums2)
+        {
+            List<int> rtn = new List<int>();
+            int index = 0;
+            for (int i = 0; i < nums1.Length; i++)
+            {
+                index = searchInsertIndex(nums2,index, nums1[i]);
+                if (index <= 0) //nums2中一定不存在这个元素
+                    continue;
+                if (nums1[i] == nums2[index - 1])
+                {
+                    rtn.Add(nums1[i]);
+                    int precnt = preSame(nums2, index - 1);
+                    int succnt = sucSame(nums1, i);
+                    int sml = precnt < succnt ? precnt : succnt;
+                    while (sml-- > 0)
+                        rtn.Add(nums1[i]);
+                    if (succnt > 0)
+                        i = i + succnt;
+                }
+            }
+            return rtn;
+        }
+	//有序数组中向<----后搜索相等元素的个数
+        private int preSame(int[] nums, int index)
+        {
+            int sameCnt = 0;
+            for(int i = index; i>0; i--)
+            {
+                if (nums[index] == nums[i - 1])
+                    sameCnt++;
+            }
+            return sameCnt;
+        }
+
+        //有序数组中向<----前搜索相等元素的个数
+        private int sucSame(int[] nums, int index)
+        {
+            int sameCnt = 0;
+            for (int i = index; i < nums.Length-1; i++)
+            {
+                if (nums[index] == nums[i + 1])
+                    sameCnt++;
+            }
+            return sameCnt;
+        }
+```
+* [#349 Intersection of Two Arrays](http://blog.csdn.net/daigualu/article/details/69666198)
+
+```
+ public int[] Intersection(int[] nums1, int[] nums2)
+        {
+            if (nums1 == null || nums1.Length == 0) return new int[] { };
+            if (nums2 == null || nums2.Length == 0) return new int[] { };
+            HashSet<int> set1 = new HashSet<int>();
+            foreach (var item in nums1)
+            {
+                if (!set1.Contains(item))
+                    set1.Add(item);
+            }
+
+            HashSet<int> set2 = new HashSet<int>();
+            foreach (var item in nums2)
+            {
+                if (!set2.Contains(item))
+                    set2.Add(item);
+            }
+            return set1.Intersect(set2).ToArray();
+        }
+```
+
 
