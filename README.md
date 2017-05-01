@@ -6,11 +6,9 @@ Tags are following:
 * [Linked List](/LinkedList)
 * [Math](/Math)
 * [Two Pointers](/TwoPointers)
-* String
-* Binary Search
-* Divide and Conquer
+* [String](/String)
+* [Binary Search](/BinarySearch)
 * [Dynamic Programming](/DP)
-* Backtracking
 * [Stack](/Stack)
 * [Tree](/Tree)
 
