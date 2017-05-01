@@ -110,7 +110,7 @@ public IList<int> GetRow(int rowIndex) {
         return digits;
     }
 ```
-* [best time to buy and sell stock](http://blog.csdn.net/daigualu/article/details/71038726)
+* [#121 Best time to buy and sell stock](http://blog.csdn.net/daigualu/article/details/71038726)
 ```
  public int MaxProfit(int[] prices) {
         int premax = 0;
