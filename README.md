@@ -124,7 +124,30 @@ public IList<int> GetRow(int rowIndex) {
         return premax;
     }
 ```
-
+* [#26	Remove Duplicates from Sorted Array](http://blog.csdn.net/daigualu/article/details/71064545)
+```
+ public int RemoveDuplicates(int[] nums) 
+    {
+        //nums have been sorted
+        if(nums.Length==0) return 0;
+        if(nums.Length==1) return 1;
+       int j=0; //指向不同元素的指针
+       for(int i=0; i<nums.Length; i++)
+       {
+            while(i+1<nums.Length && nums[i]==nums[i+1])
+               i++;
+            if(i+1<nums.Length)
+            {
+                j++;
+                if(j<i+1) //[j-1,i]间元素相等
+                  nums[j] = nums[i+1];//
+            }
+            else 
+              j++;
+       }
+       return j;
+    }
+```
 
 ## Hash Table
 * [#136 	Single number](/HashTable/HashTable.Lib/SingleOneSln.cs)
