@@ -83,6 +83,49 @@ public IList<int> GetRow(int rowIndex) {
             return a3.Max();
         }
 ```
+* [#66 Plus One](http://blog.csdn.net/daigualu/article/details/71056697)
+```
+ public int[] PlusOne(int[] digits) 
+    {
+        int index = digits.Length - 1;
+        if(digits[index]<9)
+          {
+              digits[index]++;
+              return digits;
+          }
+        if(index==0) return new int[]{1,0}; 
+        int i = index;
+        while(digits[i]==9)
+        {
+            digits[i] = 0; //位溢出
+            if(i==0) //所有的位溢出
+            {
+                int [] rtn = new int[index+2];
+                rtn[0]=1;
+                return rtn;
+            }
+            i--;
+        }
+        digits[i]++; //第i位不为9（i > 0）
+        return digits;
+    }
+```
+* [best time to buy and sell stock](http://blog.csdn.net/daigualu/article/details/71038726)
+```
+ public int MaxProfit(int[] prices) {
+        int premax = 0;
+        int curmax = 0;
+        for(int i=1; i<prices.Length; i++)
+        {
+            int cal = prices[i]-prices[i-1]; //相邻项差值
+            curmax = Math.Max(cal,cal+curmax); //参考当前项后的最大值
+            premax = Math.Max(curmax,premax); //赚钱最大值
+        }
+        return premax;
+    }
+```
+
+
 ## Hash Table
 * [#136 	Single number](/HashTable/HashTable.Lib/SingleOneSln.cs)
 
