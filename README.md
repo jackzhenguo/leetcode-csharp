@@ -84,7 +84,7 @@ public IList<int> GetRow(int rowIndex) {
         }
 ```
 * [#66 Plus One](http://blog.csdn.net/daigualu/article/details/71056697)
-```
+```C#
  public int[] PlusOne(int[] digits) 
     {
         int index = digits.Length - 1;
@@ -111,7 +111,7 @@ public IList<int> GetRow(int rowIndex) {
     }
 ```
 * [#121 Best time to buy and sell stock](http://blog.csdn.net/daigualu/article/details/71038726)
-```
+```C#
  public int MaxProfit(int[] prices) {
         int premax = 0;
         int curmax = 0;
@@ -125,7 +125,7 @@ public IList<int> GetRow(int rowIndex) {
     }
 ```
 * [#26	Remove Duplicates from Sorted Array](http://blog.csdn.net/daigualu/article/details/71064545)
-```
+```C#
  public int RemoveDuplicates(int[] nums) 
     {
         //nums have been sorted
@@ -148,6 +148,37 @@ public IList<int> GetRow(int rowIndex) {
        return j;
     }
 ```
+
+* [#122 BestTimeToBuyandSellStockII](http://blog.csdn.net/daigualu/article/details/71104584)
+```C#
+    public int MaxProfit(int[] prices) {
+        int totalProfit = 0;
+        for(int i=0;i<prices.Length-1;i++)
+        {
+            if(prices[i+1]>prices[i])
+               totalProfit += prices[i+1] - prices[i];
+        }
+        return totalProfit;
+    }
+```
+* [#27 Remove element](http://blog.csdn.net/daigualu/article/details/71104482)
+```C#
+    public int RemoveElement(int[] nums, int val)
+    {
+        int i=0; //指向不等于元素val
+        for(int j=0; j<nums.Length;j++)
+        {
+            while(j<nums.Length&&nums[j]==val)
+                j++;
+            if(i<j && j<nums.Length)
+              nums[i]= nums[j];
+            if(j<nums.Length)
+              i++;
+        }
+        return i;
+    }
+```
+
 
 ## Hash Table
 * [#136 	Single number](/HashTable/HashTable.Lib/SingleOneSln.cs)
@@ -300,7 +331,7 @@ public int[] TwoSum(int[] nums, int target)
 ```
 ## Linked List
 [#141 Linked List Cycle](http://blog.csdn.net/daigualu/article/details/69055927)
-```
+```C#
         public bool HasCycle(ListNode head)
         {
             if (head == null) return false;
@@ -325,7 +356,7 @@ public int[] TwoSum(int[] nums, int target)
         }
 ```
 [#237 Delete Node in a Linked List](http://blog.csdn.net/daigualu/article/details/69055991)
-```
+```C#
 void deleteNode(ListNode node) {
         if(node==null) 
            return;
@@ -334,7 +365,7 @@ void deleteNode(ListNode node) {
     }
 ```
 [#83	Remove Duplicates from Sorted List](http://blog.csdn.net/daigualu/article/details/69093677)
-```
+```C#
        public ListNode DeleteDuplicates(ListNode head)
         {
             ListNode diff = head;
@@ -354,7 +385,7 @@ void deleteNode(ListNode node) {
         }
 ```
 [#160 Intersection of Two Linked Lists](http://blog.csdn.net/daigualu/article/details/69526717)
-```
+```C#
      public ListNode GetIntersectionNode(ListNode headA, ListNode headB)
         {
             if (headA == null || headB == null)
@@ -386,7 +417,7 @@ void deleteNode(ListNode node) {
 ```
 
 [#203	Remove Linked List Elements](http://blog.csdn.net/daigualu/article/details/69389243)
-```
+```C#
  public ListNode RemoveElements(ListNode head, int val)
         {
             if (head == null)
@@ -418,7 +449,7 @@ void deleteNode(ListNode node) {
         }
 ```
 [#206	Reverse Linked List](http://blog.csdn.net/daigualu/article/details/69372119)
-```
+```C#
        public ListNode ReverseList(ListNode head)
         {
             if (head == null || head.next == null)
@@ -437,7 +468,7 @@ void deleteNode(ListNode node) {
         }
 ```
 [#234	Palindrome Linked List](http://blog.csdn.net/daigualu/article/details/69388513)
-```
+```C#
       public bool IsPalindrome(ListNode head)
         {
             int nodeCnt = nodeCount(head);           
@@ -473,7 +504,7 @@ void deleteNode(ListNode node) {
         }
 ```
 [#21	Merge Two Sorted Lists](http://blog.csdn.net/daigualu/article/details/69565969)
-```
+```C#
 	public ListNode MergeTwoLists(ListNode l1, ListNode l2)
         {
             if (l1 == null) return l2;
@@ -526,7 +557,7 @@ void deleteNode(ListNode node) {
 ## Math    
 [#231 Power of Two](http://blog.csdn.net/daigualu/article/details/69102931)
 
-```
+```C#
    public bool IsPowerOfTwo(int n)
         {
             if (n<=0) return false;
@@ -541,7 +572,7 @@ void deleteNode(ListNode node) {
 
 [#268 Missing Number](http://blog.csdn.net/daigualu/article/details/69220202)
 
-```
+```C#
       public int MissingNumber(int[] nums)
         {
             int xor = 0, i = 0;
@@ -556,7 +587,7 @@ void deleteNode(ListNode node) {
 
 [#507	Perfect Number](http://blog.csdn.net/daigualu/article/details/69233798)
 
-```
+```C#
      public bool CheckPerfectNumber(int num)
         {
             int sum = 1;
@@ -575,7 +606,7 @@ void deleteNode(ListNode node) {
 ## Two Pointers
 [#345	Reverse Vowels of a String](http://blog.csdn.net/daigualu/article/details/69257693)
 	
-```
+```C#
  private List<char> vowels = new List<char> {'a', 'A', 'e', 'E', 'i', 'I', 'o', 'O', 'u', 'U'};
         private char[] chars;
 
@@ -618,7 +649,7 @@ void deleteNode(ListNode node) {
 [#283 Move Zeroes](http://blog.csdn.net/daigualu/article/details/69329038)
 	
 
-```
+```C#
         public void MoveZeroes(int[] nums)
         {
             int i, j = 0; //j始终指向非零数
@@ -643,7 +674,7 @@ void deleteNode(ListNode node) {
 
 [#88	Merge Sorted Array](http://blog.csdn.net/daigualu/article/details/69367334)	
 
-```
+```C#
         public void Merge(int[] nums1, int m, int[] nums2, int n)
         {
             int i = m - 1; //指向nums1
@@ -661,7 +692,7 @@ void deleteNode(ListNode node) {
 
 [#234Palindrome Linked List](http://blog.csdn.net/daigualu/article/details/69388513)
 
-```
+```C#
       public bool IsPalindrome(ListNode head)
         {
             int nodeCnt = nodeCount(head);           
@@ -701,7 +732,7 @@ void deleteNode(ListNode node) {
 ## String      
 [#58 Length of Last Word](http://blog.csdn.net/daigualu/article/details/69568460)
 
-```
+```C#
 public int LengthOfLastWord1(string s)
         {
             s = s.Trim(); //去掉前，后空格
@@ -714,7 +745,7 @@ public int LengthOfLastWord1(string s)
 
 [#20	 Valid Parentheses](http://blog.csdn.net/daigualu/article/details/69569622)	
 
-```
+```C#
 public bool IsValid(string s)
         {
             if (string.IsNullOrEmpty(s)) return true;
@@ -754,7 +785,7 @@ public bool IsValid(string s)
 
 [#520 Detect Capital](http://blog.csdn.net/daigualu/article/details/69663210)
 
-```
+```C#
 public bool DetectCapitalUse(string word)
         {
             if (string.IsNullOrEmpty(word)) return true;
@@ -797,7 +828,7 @@ public bool DetectCapitalUse(string word)
 
 [#459	Repeated Substring Pattern](http://blog.csdn.net/daigualu/article/details/69663545)
 
-```
+```C#
  public bool RepeatedSubstringPattern(string s)
         {
             for (int i = s.Length/2; i > 0 ; i--)
@@ -826,7 +857,7 @@ public bool DetectCapitalUse(string word)
 
 [#434	Number of Segments in a String](http://blog.csdn.net/daigualu/article/details/69664369)
 
-```
+```C#
 public int CountSegments(string s)
         {
             if (string.IsNullOrEmpty(s)) 
@@ -849,7 +880,7 @@ public int CountSegments(string s)
 
 [#14	Longest Common Prefix](http://blog.csdn.net/daigualu/article/details/69665015)	
 
-```
+```C#
          public string LongestCommonPrefix(string[] strs)
           {
                if(strs==null || strs.Length==0)
@@ -895,7 +926,7 @@ public int CountSegments(string s)
 
 [#383	Ransom Note](http://blog.csdn.net/daigualu/article/details/69665190)	
 
-```
+```C#
 public bool CanConstruct(string ransomNote, string magazine)
         {
             if (magazine == null && ransomNote == null) return true;
@@ -925,7 +956,7 @@ public bool CanConstruct(string ransomNote, string magazine)
 
 ## Binary Search
 * [#367 Valid Perfect Square](http://blog.csdn.net/daigualu/article/details/69787644)
-```
+```C#
 public bool IsPerfectSquare(int num)
         {
             int low = 1, high = num;
@@ -949,7 +980,7 @@ public bool IsPerfectSquare(int num)
         }
 ```
 * [#167 Two Sum II - Input array is sorted](http://blog.csdn.net/daigualu/article/details/69787679)
-```
+```C#
  public int[] TwoSum2(int[] num, int target)
         {
             //因为一定存在解，所以不做边界检查
@@ -968,7 +999,7 @@ public bool IsPerfectSquare(int num)
         }
 ```
 * [#441 Arranging Coins](http://blog.csdn.net/daigualu/article/details/69788500)
-```
+```C#
  public int ArrangeCoins(int n) 
  {
             long low = 1, high = n; 
@@ -985,7 +1016,7 @@ public bool IsPerfectSquare(int num)
 ```
 
 * [#278 First Bad Version](http://blog.csdn.net/daigualu/article/details/69802371)
-```
+```C#
      public int FirstBadVersion(int n)
         {
             long lo = 0; //指向好的版本
@@ -1005,7 +1036,7 @@ public bool IsPerfectSquare(int num)
 
 * [#349 Intersection of Two Arrays 350. Intersection of Two Arrays II](http://blog.csdn.net/daigualu/article/details/69666351)
 
-```
+```C#
  //交集定义，元素可重复
         public int[] Intersection(int[] nums1, int[] nums2)
         {
@@ -1089,7 +1120,7 @@ public bool IsPerfectSquare(int num)
 ```
 * [#349 Intersection of Two Arrays](http://blog.csdn.net/daigualu/article/details/69666198)
 
-```
+```C#
  public int[] Intersection(int[] nums1, int[] nums2)
         {
             if (nums1 == null || nums1.Length == 0) return new int[] { };
