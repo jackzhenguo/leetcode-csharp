@@ -1,4 +1,15 @@
 # leetcode-csharp
+
+## Today Update
+  ### Array
+    #### 532 K-diff Pairs in an Array
+	   * Github: [#532 K-diff Pairs in an Array](/Array/Array.Lib/FindPairsSln.cs)
+	   * CSDN: [#532 K-diff Pairs in an Array](http://blog.csdn.net/daigualu/article/details/71129806)
+	#### 217 Contains Duplicate
+	   * Github: [#217 Contains Duplicate](/Array/Array.Lib/ContainsItemSln.cs)
+	   * CSDN: [#217 Contains Duplicate](http://blog.csdn.net/daigualu/article/details/71123673)
+
+## Solution List
 solutions using C# for leetcode according to tags of questions
 Tags are following:  
 * [Array](/Array)
