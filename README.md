@@ -4,13 +4,10 @@
 ### Array
 #### 448 Find All Numbers Disappeared in an Array
 *  [Github:#448 Find All Numbers Disappeared in an Array](/Array/Array.Lib/DisappearElementsSln.cs)
-*  [CSDN:#448 Find All Numbers Disappeared in an Array](http://blog.csdn.net/daigualu/article/details/71168875)
+*  [CSDN: #448 Find All Numbers Disappeared in an Array](http://blog.csdn.net/daigualu/article/details/71168875)
 #### 219 Contains Duplicate II
-*  [Github:219 Contains Duplicate II](/Array/Array.Lib/ContainsDuplicateIISln.cs)
-*  [CSDN:219 Contains Duplicate II](http://blog.csdn.net/daigualu/article/details/71166985)
-#### 189. Rotate Array
-*  [Github:189. Rotate Array](/Array/Array.Lib/RotateArraySln.cs)
-*  [CSDN:189. Rotate Array](http://blog.csdn.net/daigualu/article/details/71159419)
+*  [Github: 485. Max Consecutive Ones](/Array/Array.Lib/MaxConsecutiveOnesSln.cs)
+*  [CSDN: 485. Max Consecutive Ones](http://blog.csdn.net/daigualu/article/details/71216338)
 
 ## Solution List
 solutions using C# for leetcode according to tags of questions
@@ -198,6 +195,16 @@ public IList<int> GetRow(int rowIndex) {
 #### 217 Contains Duplicate
 *  [Github:#217 Contains Duplicate](/Array/Array.Lib/ContainsItemSln.cs)
 *  [CSDN:#217 Contains Duplicate](http://blog.csdn.net/daigualu/article/details/71123673)
+
+#### 448 Find All Numbers Disappeared in an Array
+*  [Github:#448 Find All Numbers Disappeared in an Array](/Array/Array.Lib/DisappearElementsSln.cs)
+*  [CSDN:#448 Find All Numbers Disappeared in an Array](http://blog.csdn.net/daigualu/article/details/71168875)
+#### 219 Contains Duplicate II
+*  [Github:219 Contains Duplicate II](/Array/Array.Lib/ContainsDuplicateIISln.cs)
+*  [CSDN:219 Contains Duplicate II](http://blog.csdn.net/daigualu/article/details/71166985)
+#### 189. Rotate Array
+*  [Github:189. Rotate Array](/Array/Array.Lib/RotateArraySln.cs)
+*  [CSDN:189. Rotate Array](http://blog.csdn.net/daigualu/article/details/71159419)
 
 ## Hash Table
 * [#136 	Single number](/HashTable/HashTable.Lib/SingleOneSln.cs)
