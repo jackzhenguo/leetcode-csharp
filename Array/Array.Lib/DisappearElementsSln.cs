@@ -27,13 +27,17 @@ namespace Array.Lib
 
         public IList<int> FindDisappearedNumbers2(int[] nums)
         {
-            System.Array.Sort(nums);
             IList<int> rtn = new List<int>();
             for (int i = 0; i < nums.Length; i++)
             {
-                int val = i + 1;
-                
-                
+                int index = Math.Abs(nums[i]) - 1;
+                if (nums[index] > 0)
+                    nums[index] = -nums[index];
+            }
+            for (int i = 0; i < nums.Length; i++)
+            {
+                if(nums[i]>0)
+                    rtn.Add(i+1);
             }
             return rtn;
         }
