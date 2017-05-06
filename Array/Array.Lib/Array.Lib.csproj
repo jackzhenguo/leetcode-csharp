@@ -40,10 +40,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ArrayPartitionISln.cs" />
     <Compile Include="PascalsTriangle.cs" />
     <Compile Include="PascalsTriangleII.cs" />
     <Compile Include="PlusOneSln.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ReshapeMatrixSln.cs" />
     <Compile Include="SearchInsertPosition.cs" />
     <Compile Include="ThirdMaximumNumber.cs" />
   </ItemGroup>
