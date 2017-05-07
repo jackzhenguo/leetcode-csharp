@@ -25,172 +25,27 @@ Tags are following:
 * [Stack](/Stack)
 * [Tree](/Tree)
 
-# Details:
-## Array tag:
+# Details
+## Array
 * [#35 Search Insert Position](/Array/Array.Console/Array.Lib/SearchInsertPosition.cs)
-```C#
- public int SearchInsert(int[] nums, int target) {
-        int lo = 0;
-        int hi = nums.Length;
-        while(lo<hi){
-            int mi = (lo+hi)>>1;
-            if(target<=nums[mi]) //目标值不大于中间位置的数时，hi变小
-               hi=mi;
-            else if(target>nums[mi]) //大于中间位置的值，lo加1
-               lo=lo+1;
-        }
-        return lo;
-    }
-```
-* [#118 	Pascal’s Triangle](/Array/Array.Console/Array.Lib/PascalsTriangle.cs)
-```C#
-public IList<IList<int>> Generate(int numRows)
-     {
-        IList<IList<int>> rtn = new List<IList<int>>();
-        for(int i=0; i<numRows;i++)
-        {
-            IList<int> ints = new List<int>();
-            ints.Add(1); 
-            for(int j=1;j<i;j++)
-              {
-                  IList<int> intsPreRow = rtn[i-1];
-                  ints.Add(intsPreRow[j-1]+intsPreRow[j]);
-              }
-            if(i>0)
-              ints.Add(1);
 
-            rtn.Add(ints);
-        }
-        return rtn;
-    }
-```
+* [#118 	Pascal’s Triangle](/Array/Array.Console/Array.Lib/PascalsTriangle.cs)
+
 * [#119 	Pascal’s Triangle II](/Array/Array.Console/Array.Lib/PascalsTriangleII.cs)
-```C#
-public IList<int> GetRow(int rowIndex) {
-    if ( rowIndex<0 )  return new List<int>();  
-    IList<int> levelList = new List<int>();
-     for(int i=0;i<=rowIndex;i++) 
-     {  
-        int k=levelList.Count;  
-        for(int j=k-1;j>=1;j--)  //这个循环是最重要的一部分，巧妙的运用了Pascal三角的特点
-        {
-            levelList[j]=levelList[j-1]+levelList[j]; 
-        }
-        levelList.Add(1);  
-     }
-    return levelList;  
-    }
-```
+
 * [#414 	Third Maximum Number](/Array/Array.Console/Array.Lib/ThirdMaximumNumber.cs)
-```C#
- public int GetThirdMax(int[] a)
-        {
-            int first = a.Max();
-            int[] a2 = a.Where(r => r != first).ToArray();
-            if (a2.Length == 0)
-                return first;
-            int second = a2.Max();
-            int[] a3 = a2.Where(r => r != second).ToArray();
-            if (a3.Length == 0)
-                return first;
-            return a3.Max();
-        }
-```
+
 * [#66 Plus One](http://blog.csdn.net/daigualu/article/details/71056697)
-```C#
- public int[] PlusOne(int[] digits) 
-    {
-        int index = digits.Length - 1;
-        if(digits[index]<9)
-          {
-              digits[index]++;
-              return digits;
-          }
-        if(index==0) return new int[]{1,0}; 
-        int i = index;
-        while(digits[i]==9)
-        {
-            digits[i] = 0; //位溢出
-            if(i==0) //所有的位溢出
-            {
-                int [] rtn = new int[index+2];
-                rtn[0]=1;
-                return rtn;
-            }
-            i--;
-        }
-        digits[i]++; //第i位不为9（i > 0）
-        return digits;
-    }
-```
+
 * [#121 Best time to buy and sell stock](http://blog.csdn.net/daigualu/article/details/71038726)
-```C#
- public int MaxProfit(int[] prices) {
-        int premax = 0;
-        int curmax = 0;
-        for(int i=1; i<prices.Length; i++)
-        {
-            int cal = prices[i]-prices[i-1]; //相邻项差值
-            curmax = Math.Max(cal,cal+curmax); //参考当前项后的最大值
-            premax = Math.Max(curmax,premax); //赚钱最大值
-        }
-        return premax;
-    }
-```
+
 * [#26	Remove Duplicates from Sorted Array](http://blog.csdn.net/daigualu/article/details/71064545)
-```C#
- public int RemoveDuplicates(int[] nums) 
-    {
-        //nums have been sorted
-        if(nums.Length==0) return 0;
-        if(nums.Length==1) return 1;
-       int j=0; //指向不同元素的指针
-       for(int i=0; i<nums.Length; i++)
-       {
-            while(i+1<nums.Length && nums[i]==nums[i+1])
-               i++;
-            if(i+1<nums.Length)
-            {
-                j++;
-                if(j<i+1) //[j-1,i]间元素相等
-                  nums[j] = nums[i+1];//
-            }
-            else 
-              j++;
-       }
-       return j;
-    }
-```
+
 
 * [#122 BestTimeToBuyandSellStockII](http://blog.csdn.net/daigualu/article/details/71104584)
-```C#
-    public int MaxProfit(int[] prices) {
-        int totalProfit = 0;
-        for(int i=0;i<prices.Length-1;i++)
-        {
-            if(prices[i+1]>prices[i])
-               totalProfit += prices[i+1] - prices[i];
-        }
-        return totalProfit;
-    }
-```
+
 * [#27 Remove element](http://blog.csdn.net/daigualu/article/details/71104482)
-```C#
-    public int RemoveElement(int[] nums, int val)
-    {
-        int i=0; //指向不等于元素val
-        for(int j=0; j<nums.Length;j++)
-        {
-            while(j<nums.Length&&nums[j]==val)
-                j++;
-            if(i<j && j<nums.Length)
-              nums[i]= nums[j];
-            if(j<nums.Length)
-              i++;
-        }
-        return i;
-    }
-```
+
 #### 532 K-diff Pairs in an Array
 *  [Github:#532 K-diff Pairs in an Array](/Array/Array.Lib/FindPairsSln.cs)
 *  [CSDN:#532 K-diff Pairs in an Array](http://blog.csdn.net/daigualu/article/details/71129806)
@@ -218,238 +73,23 @@ public IList<int> GetRow(int rowIndex) {
 ## Hash Table
 * [#136 	Single number](/HashTable/HashTable.Lib/SingleOneSln.cs)
 
-```C#
- public  int SingleNumber(int[] nums)
-        {
-            HashSet<int> hash = new HashSet<int>();
-            foreach(int item in nums)
-            {
-                if (hash.Contains(item))
-                    hash.Remove(item);
-                else
-                    hash.Add(item);
-            }
-            return hash.Min();
-
-        }
-```
 * [#1 Two Sum](/HashTable/HashTable.Lib/TwoSumSln.cs)
-```C#
-public int[] TwoSum(int[] nums, int target)
-        {
-            Dictionary<int, int> dict = new Dictionary<int, int>();
-            for(int i=0; i<nums.Length;i++)
-            {
-                if (dict.ContainsKey(target - nums[i]))
-                    return new int[] { dict[target - nums[i]] ,i};
-                else
-                    {
-                      if(!dict.ContainsKey(nums[i])) //同一个元素不能用两次
-                        dict.Add(nums[i], i);
-                    }
 
-            }
-            return null;
-        }
-```
 
 * [#447 Number of Boomerangs](/HashTable/HashTable.Lib/Boomerangs.cs)
-```C#
-        public static int NumberOfBoomerangs(int[,] points)
-        {
-            Dictionary<double, int> dict = new Dictionary<double, int>();
-            int len = points.GetUpperBound(0);
-            int rtnCnt=0;
-            for (int i = 0; i <= len; i++)
-            {
-                //3点变2点
-                for (int j = 0; j <= len; j++)
-                {
-                    if (i == j) continue;
-                    double d = distance(points[i, 0], points[j, 0], points[i, 1], points[j, 1]);
-                    if (dict.ContainsKey(d))
-                        dict[d]++;
-                    else dict.Add(d, 1);
-                }
-                foreach(var item in dict)
-                {
-                    if (item.Value > 1)
-                    {
-                        //如果找到了value个，因为有顺序，所以排序
-                        rtnCnt += item.Value*(item.Value-1); 
-                    }
-                }
-                dict.Clear();
-            }
-            return rtnCnt;
-        }
-
-        private  double distance(int x1, int x2, int y1, int y2)
-        {
-            int x = x1 - x2;
-            int y = y1 - y2;
-
-            return Math.Sqrt(x * x + y * y);
-        }
-```
-
-
-
 
 * [#463. Island Perimeter](/HashTable/HashTable.Lib/IslandPerimeter.cs)
-```C#
-       public int LandPerimeter(int[,] grid)
-       {
-           int rtn=0;
-           for(int i=0; i<=grid.GetUpperBound(0);i++)
-           {
-               for(int j=0;j<=grid.GetUpperBound(1);j++)
-               {
-                   if (grid[i, j] == 1)
-                       rtn +=4-surroundingIsland(grid,i,j);
-               }
-           }
-           return rtn;
-       }
-
-       //获取某个网格周围的网格数（[0,4]）
-       //noy: y向网格索引（行）
-       //nox：x向网格索引（列）
-       private int surroundingIsland(int[,] grid, int noy, int nox)
-       {
-           int rtnCnt=0;
-           if (nox > 0)
-           {
-               if (grid[noy, nox - 1] == 1)
-                   rtnCnt++;
-           }
-           if (nox < grid.GetUpperBound(1))//nox小于（列）最大索引吗
-           {
-               if (grid[noy, nox + 1] == 1)
-                   rtnCnt++;
-           }
-           if (noy > 0)
-           {
-               if (grid[noy - 1, nox] == 1)
-                   rtnCnt++;
-           }
-           if(noy<grid.GetUpperBound(0))//noy小于最大（行）索引吗
-           {
-               if (grid[noy + 1, nox] == 1)
-                   rtnCnt++;
-           }
-           return rtnCnt;
-       }
-```
-
-
 
 * [#409	Longest Palindrome](/HashTable/HashTable.Lib/LongestPalindrome.cs)
 
-```C#
-        public int NumberOfPalindrome(string s)
-        {
-            HashSet<int> hash = new HashSet<int>();
-            int count = 0;
-            foreach (var item in s)
-            {
-                if (hash.Contains(item))
-                {
-                    hash.Remove(item); //配对成功，
-                    count++;           //count加1
-                }
-                else
-                    hash.Add(item);
-            }
-            return hash.Count > 0 ? count * 2 + 1 : count * 2;
-        }
-```
 ## Linked List
 [#141 Linked List Cycle](http://blog.csdn.net/daigualu/article/details/69055927)
-```C#
-        public bool HasCycle(ListNode head)
-        {
-            if (head == null) return false;
-            if (head.next == null) return false;
-            if (head.next.next == null) return false;
 
-            ListNode slow = head;
-            ListNode fast = head;
-
-            while (fast != null && fast.next != null)
-            {
-                slow = slow.next;
-                fast = fast.next.next;
-                if (fast == null)
-                    return false; //快指针如果为null，不存在环
-                if (fast.val == slow.val)
-                {
-                    return true; //找到节点数据域相等点，存在环
-                }
-            }
-            return false;
-        }
-```
 [#237 Delete Node in a Linked List](http://blog.csdn.net/daigualu/article/details/69055991)
-```C#
-void deleteNode(ListNode node) {
-        if(node==null) 
-           return;
-        node.val = node.next.val;
-        node.next = node.next.next;
-    }
-```
+
 [#83	Remove Duplicates from Sorted List](http://blog.csdn.net/daigualu/article/details/69093677)
-```C#
-       public ListNode DeleteDuplicates(ListNode head)
-        {
-            ListNode diff = head;
-            ListNode tmp = head;
-            while (tmp != null && tmp.next != null)
-            {
-                while (tmp.next != null && tmp.next.val == tmp.val)
-                {
-                    tmp = tmp.next;
-                }
-                diff.next = tmp.next;//找到一个新值          
-                diff = diff.next;//迭代
-                tmp = diff;
-            }
 
-            return head;
-        }
-```
 [#160 Intersection of Two Linked Lists](http://blog.csdn.net/daigualu/article/details/69526717)
-```C#
-     public ListNode GetIntersectionNode(ListNode headA, ListNode headB)
-        {
-            if (headA == null || headB == null)
-                return null;
-
-            ListNode a = headA;
-            ListNode b = headB;
-
-            while (a!= b)
-            {
-
-                if (a == null)
-                    a = headB;
-                else
-                {
-                    a = a.next;
-                }
-
-                if (b == null)
-                    b = headA;
-                else
-                {
-                    b = b.next;
-                }
-
-            }
-            return a;
-        }
-```
 
 [#203	Remove Linked List Elements](http://blog.csdn.net/daigualu/article/details/69389243)
 ```C#
