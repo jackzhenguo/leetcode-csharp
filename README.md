@@ -1,13 +1,13 @@
 # leetcode-csharp
 
 ## `Today Update`
-### Array
-#### 566 Reshape the Matrix
-*  [Github:#566 Reshape the Matrix](/Array/Array.Lib/ReshapeMatrixSln.cs)
-*  [CSDN: #566 Reshape the Matrix](https://leetcode.com/problems/reshape-the-matrix/#/description)
+### HashTable
+####  242 Valid Anagram
+*  [Github:#242 Valid Anagram](/Array/Array.Lib/ValidAnagramSln.cs)
+*  [CSDN: #242 Valid Anagram](http://blog.csdn.net/daigualu/article/details/71358552)
 #### 561 Array Partition I
-*  [Github: #561 Array Partition I](/Array/Array.Lib/ArrayPartitionISln.cs)
-*  [CSDN: #561 Array Partition I](http://blog.csdn.net/daigualu/article/details/71273279)
+*  [Github: #205 Isomorphic Strings](/Array/Array.Lib/IsomorphicStringsSln.cs)
+*  [CSDN: #205 Isomorphic Strings](http://blog.csdn.net/daigualu/article/details/71357419)
 ---
 ---
 
@@ -69,6 +69,12 @@ Tags are following:
 #### 219 Contains Duplicate II
 *  [Github: 485. Max Consecutive Ones](/Array/Array.Lib/MaxConsecutiveOnesSln.cs)
 *  [CSDN: 485. Max Consecutive Ones](http://blog.csdn.net/daigualu/article/details/71216338)
+#### 566 Reshape the Matrix
+*  [Github:#566 Reshape the Matrix](/Array/Array.Lib/ReshapeMatrixSln.cs)
+*  [CSDN: #566 Reshape the Matrix](https://leetcode.com/problems/reshape-the-matrix/#/description)
+#### 561 Array Partition I
+*  [Github: #561 Array Partition I](/Array/Array.Lib/ArrayPartitionISln.cs)
+*  [CSDN: #561 Array Partition I](http://blog.csdn.net/daigualu/article/details/71273279)
 
 ## Hash Table
 * [#136 	Single number](/HashTable/HashTable.Lib/SingleOneSln.cs)
