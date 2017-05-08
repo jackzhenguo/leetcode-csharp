@@ -13,8 +13,8 @@
  *  [Github:#202 Happy Number](/Math/Math.Lib/HappyNumber.cs)
 *   [CSDN:#202 Happy Number](http://blog.csdn.net/daigualu/article/details/71433906)
    * Floyd's Tortoise and Hare
-   reference:https://en.wikipedia.org/wiki/Cycle_detection
-   image: ![Floyd's Tortoise and Hare](/Math/Math.Lib/Floyd'sTortoiseandHare.jpg)
+   * reference:https://en.wikipedia.org/wiki/Cycle_detection
+   * image: ![Floyd's Tortoise and Hare](/Math/Math.Lib/Floyd'sTortoiseandHare.jpg)
 ---
 ---
 
@@ -103,28 +103,28 @@ Tags are following:
 *  [CSDN: #205 Isomorphic Strings](http://blog.csdn.net/daigualu/article/details/71357419)
 
 ## Linked List
-[#141 Linked List Cycle](http://blog.csdn.net/daigualu/article/details/69055927)
+* [#141 Linked List Cycle](http://blog.csdn.net/daigualu/article/details/69055927)
 
-[#237 Delete Node in a Linked List](http://blog.csdn.net/daigualu/article/details/69055991)
+* [#237 Delete Node in a Linked List](http://blog.csdn.net/daigualu/article/details/69055991)
 
-[#83	Remove Duplicates from Sorted List](http://blog.csdn.net/daigualu/article/details/69093677)
+* [#83	Remove Duplicates from Sorted List](http://blog.csdn.net/daigualu/article/details/69093677)
 
-[#160 Intersection of Two Linked Lists](http://blog.csdn.net/daigualu/article/details/69526717)
+* [#160 Intersection of Two Linked Lists](http://blog.csdn.net/daigualu/article/details/69526717)
 
-[#203	Remove Linked List Elements](http://blog.csdn.net/daigualu/article/details/69389243)
+* [#203	Remove Linked List Elements](http://blog.csdn.net/daigualu/article/details/69389243)
 
-[#206	Reverse Linked List](http://blog.csdn.net/daigualu/article/details/69372119)
+* [#206	Reverse Linked List](http://blog.csdn.net/daigualu/article/details/69372119)
 
-[#234	Palindrome Linked List](http://blog.csdn.net/daigualu/article/details/69388513)
+* [#234	Palindrome Linked List](http://blog.csdn.net/daigualu/article/details/69388513)
 
-[#21	Merge Two Sorted Lists](http://blog.csdn.net/daigualu/article/details/69565969)
+* [#21	Merge Two Sorted Lists](http://blog.csdn.net/daigualu/article/details/69565969)
 
 ## Math    
-[#231 Power of Two](http://blog.csdn.net/daigualu/article/details/69102931)
+* [#231 Power of Two](http://blog.csdn.net/daigualu/article/details/69102931)
 
-[#268 Missing Number](http://blog.csdn.net/daigualu/article/details/69220202)
+* [#268 Missing Number](http://blog.csdn.net/daigualu/article/details/69220202)
 
-[#507	Perfect Number](http://blog.csdn.net/daigualu/article/details/69233798)
+* [#507	Perfect Number](http://blog.csdn.net/daigualu/article/details/69233798)
 
 ## Two Pointers
 [#345	Reverse Vowels of a String](http://blog.csdn.net/daigualu/article/details/69257693)
@@ -136,19 +136,19 @@ Tags are following:
 [#234Palindrome Linked List](http://blog.csdn.net/daigualu/article/details/69388513)
 
 ## String      
-[#58 Length of Last Word](http://blog.csdn.net/daigualu/article/details/69568460)
+* [#58 Length of Last Word](http://blog.csdn.net/daigualu/article/details/69568460)
 
-[#20	 Valid Parentheses](http://blog.csdn.net/daigualu/article/details/69569622)	
+ *[#20	 Valid Parentheses](http://blog.csdn.net/daigualu/article/details/69569622)	
 
-[#520 Detect Capital](http://blog.csdn.net/daigualu/article/details/69663210)
+ *[#520 Detect Capital](http://blog.csdn.net/daigualu/article/details/69663210)
 
-[#459	Repeated Substring Pattern](http://blog.csdn.net/daigualu/article/details/69663545)
+ *[#459	Repeated Substring Pattern](http://blog.csdn.net/daigualu/article/details/69663545)
 
-[#434	Number of Segments in a String](http://blog.csdn.net/daigualu/article/details/69664369)
+* [#434	Number of Segments in a String](http://blog.csdn.net/daigualu/article/details/69664369)
 
-[#14	Longest Common Prefix](http://blog.csdn.net/daigualu/article/details/69665015)	
+ *[#14	Longest Common Prefix](http://blog.csdn.net/daigualu/article/details/69665015)	
 
-[#383	Ransom Note](http://blog.csdn.net/daigualu/article/details/69665190)	
+ *[#383	Ransom Note](http://blog.csdn.net/daigualu/article/details/69665190)	
 
 ## Binary Search
 * [#367 Valid Perfect Square](http://blog.csdn.net/daigualu/article/details/69787644)
