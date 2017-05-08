@@ -127,28 +127,28 @@ Tags are following:
 * [#507	Perfect Number](http://blog.csdn.net/daigualu/article/details/69233798)
 
 ## Two Pointers
-[#345	Reverse Vowels of a String](http://blog.csdn.net/daigualu/article/details/69257693)
+* [#345	Reverse Vowels of a String](http://blog.csdn.net/daigualu/article/details/69257693)
 	
-[#283 Move Zeroes](http://blog.csdn.net/daigualu/article/details/69329038)
+* [#283 Move Zeroes](http://blog.csdn.net/daigualu/article/details/69329038)
 	
-[#88	Merge Sorted Array](http://blog.csdn.net/daigualu/article/details/69367334)	
+* [#88	Merge Sorted Array](http://blog.csdn.net/daigualu/article/details/69367334)	
 
 [#234Palindrome Linked List](http://blog.csdn.net/daigualu/article/details/69388513)
 
 ## String      
 * [#58 Length of Last Word](http://blog.csdn.net/daigualu/article/details/69568460)
 
- *[#20	 Valid Parentheses](http://blog.csdn.net/daigualu/article/details/69569622)	
+* [#20	 Valid Parentheses](http://blog.csdn.net/daigualu/article/details/69569622)	
 
- *[#520 Detect Capital](http://blog.csdn.net/daigualu/article/details/69663210)
+* [#520 Detect Capital](http://blog.csdn.net/daigualu/article/details/69663210)
 
- *[#459	Repeated Substring Pattern](http://blog.csdn.net/daigualu/article/details/69663545)
+* [#459	Repeated Substring Pattern](http://blog.csdn.net/daigualu/article/details/69663545)
 
 * [#434	Number of Segments in a String](http://blog.csdn.net/daigualu/article/details/69664369)
 
- *[#14	Longest Common Prefix](http://blog.csdn.net/daigualu/article/details/69665015)	
+* [#14	Longest Common Prefix](http://blog.csdn.net/daigualu/article/details/69665015)	
 
- *[#383	Ransom Note](http://blog.csdn.net/daigualu/article/details/69665190)	
+* [#383	Ransom Note](http://blog.csdn.net/daigualu/article/details/69665190)	
 
 ## Binary Search
 * [#367 Valid Perfect Square](http://blog.csdn.net/daigualu/article/details/69787644)
