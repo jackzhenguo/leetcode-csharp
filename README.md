@@ -7,6 +7,9 @@
 *  [Github:#500 Keyboard Row](/HashTable/HashTable.Lib/KeyBoradRowSln.cs)
 *  [CSDN:#500 Keyboard Row](http://blog.csdn.net/daigualu/article/details/71447614)
 * KeyBoard: ![KeyBoard](/HashTable/HashTable.Lib/KeyBoard.jpg)
+#### 389 Find the Difference
+*  [Github:#389 Find the Difference](/HashTable/HashTable.Lib/FindDifferenceSln.cs)
+*  [CSDN:#389 Find the Difference](http://blog.csdn.net/daigualu/article/details/71450823)
 ---
 ---
 
