@@ -1,5 +1,6 @@
 # leetcode-csharp
-Welcome to visit my CSDN blog(http://blog.csdn.net/daigualu) and CSDN Column(http://blog.csdn.net/column/details/14761.html) where detail solution are.
+* Welcome to visit my CSDN blog(http://blog.csdn.net/daigualu) 
+* CSDN Column(http://blog.csdn.net/column/details/14761.html) where detail solution are.
 ## `Today Update`
 ### HashTable
 #### 500 Keyboard Row
