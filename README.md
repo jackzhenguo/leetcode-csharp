@@ -5,7 +5,7 @@ Welcome to visit my CSDN blog(http://blog.csdn.net/daigualu) and CSDN Column(htt
 #### 500 Keyboard Row
 *  [Github:#500 Keyboard Row](/HashTable/HashTable.Lib/KeyBoradRowSln.cs)
 *  [CSDN:#500 Keyboard Row](http://blog.csdn.net/daigualu/article/details/71447614)
-* KeyBoard: ![Floyd's Tortoise and Hare](/HashTable/HashTable.Lib/KeyBoard.jpg)
+* KeyBoard: ![KeyBoard](/HashTable/HashTable.Lib/KeyBoard.jpg)
 ---
 ---
 
