@@ -1,20 +1,11 @@
 # leetcode-csharp
-
+Welcome to visit my CSDN blog(http://blog.csdn.net/daigualu) and CSDN Column(http://blog.csdn.net/column/details/14761.html) where detail solution are.
 ## `Today Update`
 ### HashTable
-####  438 Find All Anagrams in a String
-*  [Github:#438 Find All Anagrams in a String](/HashTable/HashTable.Lib/FindAllAnagramsSln.cs)
-*  [CSDN:#438 Find All Anagrams in a String](http://blog.csdn.net/daigualu/article/details/71339879)
-#### 204 Count Primes
-*  [Github:#204 Count Primes](/HashTable/HashTable.Lib/PrimesCountSln.cs)
-*  [CSDN:#204 Count Primes](http://blog.csdn.net/daigualu/article/details/71366483)
-### Math
-#### 202 Happy Number
- *  [Github:#202 Happy Number](/Math/Math.Lib/HappyNumber.cs)
-*   [CSDN:#202 Happy Number](http://blog.csdn.net/daigualu/article/details/71433906)
-   * Floyd's Tortoise and Hare
-   * reference:https://en.wikipedia.org/wiki/Cycle_detection
-   * image: ![Floyd's Tortoise and Hare](/Math/Math.Lib/Floyd'sTortoiseandHare.jpg)
+#### 500 Keyboard Row
+*  [Github:#500 Keyboard Row](/HashTable/HashTable.Lib/KeyBoradRowSln.cs)
+*  [CSDN:#500 Keyboard Row](http://blog.csdn.net/daigualu/article/details/71447614)
+* KeyBoard: ![Floyd's Tortoise and Hare](/HashTable/HashTable.Lib/KeyBoard.jpg)
 ---
 ---
 
@@ -101,6 +92,12 @@ Tags are following:
 #### 561 Array Partition I
 *  [Github: #205 Isomorphic Strings](/Array/Array.Lib/IsomorphicStringsSln.cs)
 *  [CSDN: #205 Isomorphic Strings](http://blog.csdn.net/daigualu/article/details/71357419)
+####  438 Find All Anagrams in a String
+*  [Github:#438 Find All Anagrams in a String](/HashTable/HashTable.Lib/FindAllAnagramsSln.cs)
+*  [CSDN:#438 Find All Anagrams in a String](http://blog.csdn.net/daigualu/article/details/71339879)
+#### 204 Count Primes
+*  [Github:#204 Count Primes](/HashTable/HashTable.Lib/PrimesCountSln.cs)
+*  [CSDN:#204 Count Primes](http://blog.csdn.net/daigualu/article/details/71366483)
 
 ## Linked List
 * [#141 Linked List Cycle](http://blog.csdn.net/daigualu/article/details/69055927)
@@ -125,6 +122,13 @@ Tags are following:
 * [#268 Missing Number](http://blog.csdn.net/daigualu/article/details/69220202)
 
 * [#507	Perfect Number](http://blog.csdn.net/daigualu/article/details/69233798)
+
+#### 202 Happy Number
+ *  [Github:#202 Happy Number](/Math/Math.Lib/HappyNumber.cs)
+*   [CSDN:#202 Happy Number](http://blog.csdn.net/daigualu/article/details/71433906)
+   * Floyd's Tortoise and Hare
+   * reference:https://en.wikipedia.org/wiki/Cycle_detection
+   * image: ![Floyd's Tortoise and Hare](/Math/Math.Lib/Floyd'sTortoiseandHare.jpg)
 
 ## Two Pointers
 * [#345	Reverse Vowels of a String](http://blog.csdn.net/daigualu/article/details/69257693)
