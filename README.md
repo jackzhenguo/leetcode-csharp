@@ -7,6 +7,10 @@
 *  [Github:#380 Insert Delete GetRandom O(1)](/HashTable/HashTable.Lib/RandomizedSet.cs)
 *  [CSDN:#380 Insert Delete GetRandom O(1)](http://blog.csdn.net/daigualu/article/details/71550547)
 * RandomizedSet: ![RandomizedSet](/HashTable/HashTable.Lib/Randomized.jpg)
+#### 451 Sort Characters By Frequency
+*  [Github:#451 Sort Characters By Frequency](/HashTable/HashTable.Lib/FrequSortSln.cs)
+*  [CSDN:#451 Sort Characters By Frequency](http://blog.csdn.net/daigualu/article/details/71566159)
+   * this problem solving is not by sorting order by frequency of chars! please read it.
 ---
 ---
 
