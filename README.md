@@ -3,13 +3,10 @@
 * CSDN Column(http://blog.csdn.net/column/details/14761.html) where detail solution are.
 ## `Today Update`
 ### HashTable
-#### 500 Keyboard Row
-*  [Github:#500 Keyboard Row](/HashTable/HashTable.Lib/KeyBoradRowSln.cs)
-*  [CSDN:#500 Keyboard Row](http://blog.csdn.net/daigualu/article/details/71447614)
-* KeyBoard: ![KeyBoard](/HashTable/HashTable.Lib/KeyBoard.jpg)
-#### 389 Find the Difference
-*  [Github:#389 Find the Difference](/HashTable/HashTable.Lib/FindDifferenceSln.cs)
-*  [CSDN:#389 Find the Difference](http://blog.csdn.net/daigualu/article/details/71450823)
+#### 380 Insert Delete GetRandom O(1)
+*  [Github:#380 Insert Delete GetRandom O(1)](/HashTable/HashTable.Lib/RandomizedSet.cs)
+*  [CSDN:#380 Insert Delete GetRandom O(1)](http://blog.csdn.net/daigualu/article/details/71550547)
+* RandomizedSet: ![RandomizedSet](/HashTable/HashTable.Lib/Randomized.jpg)
 ---
 ---
 
@@ -102,6 +99,13 @@ Tags are following:
 #### 204 Count Primes
 *  [Github:#204 Count Primes](/HashTable/HashTable.Lib/PrimesCountSln.cs)
 *  [CSDN:#204 Count Primes](http://blog.csdn.net/daigualu/article/details/71366483)
+#### 500 Keyboard Row
+*  [Github:#500 Keyboard Row](/HashTable/HashTable.Lib/KeyBoradRowSln.cs)
+*  [CSDN:#500 Keyboard Row](http://blog.csdn.net/daigualu/article/details/71447614)
+* KeyBoard: ![KeyBoard](/HashTable/HashTable.Lib/KeyBoard.jpg)
+#### 389 Find the Difference
+*  [Github:#389 Find the Difference](/HashTable/HashTable.Lib/FindDifferenceSln.cs)
+*  [CSDN:#389 Find the Difference](http://blog.csdn.net/daigualu/article/details/71450823)
 
 ## Linked List
 * [#141 Linked List Cycle](http://blog.csdn.net/daigualu/article/details/69055927)
