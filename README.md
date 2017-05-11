@@ -1,6 +1,6 @@
 # leetcode-csharp
 * Welcome to visit my CSDN blog(http://blog.csdn.net/daigualu) 
-* CSDN Column(http://blog.csdn.net/column/details/14761.html) where detail solution are.
+* CSDN Column(http://blog.csdn.net/column/details/14761.html) where detail solutions are.
 ## `Today Update`
 ### HashTable
 #### 575 Distribute Candies
