@@ -4,7 +4,7 @@
 ## `Today Update`
 ### HashTable
 #### 575 Distribute Candies
-*  [Github:#575 Distribute Candies](/HashTable/HashTable.Lib/RandomizedSet.cs)
+*  [Github:#575 Distribute Candies](/HashTable/HashTable.Lib/DistributeCandiessln.cs)
 *  [CSDN:#575 Distribute Candies](http://blog.csdn.net/daigualu/article/details/71625170)
 ####  381 Insert Delete GetRandom O(1) - Duplicates allowed
 *  [Github:# 381 Insert Delete GetRandom O(1) - Duplicates allowed](/HashTable/HashTable.Lib/RandomizedCollection.cs)
