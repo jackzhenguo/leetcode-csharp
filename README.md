@@ -9,7 +9,7 @@
 ####  381 Insert Delete GetRandom O(1) - Duplicates allowed
 *  [Github:# 381 Insert Delete GetRandom O(1) - Duplicates allowed](/HashTable/HashTable.Lib/RandomizedCollection.cs)
 *  [CSDN:#381 Insert Delete GetRandom O(1) - Duplicates allowed](http://blog.csdn.net/daigualu/article/details/71618673)
-* RandomizedCollection: ![RandomizedCollection](/HashTable/HashTable.Lib/Randomized.jpg)
+
 ---
 ---
 
@@ -27,7 +27,7 @@ Tags are following:
 * [Stack](/Stack)
 * [Tree](/Tree)
 
-# Details
+## Details
 ## Array
 * [#35 Search Insert Position](/Array/Array.Console/Array.Lib/SearchInsertPosition.cs)
 
