@@ -3,14 +3,13 @@
 * CSDN Column(http://blog.csdn.net/column/details/14761.html) where detail solution are.
 ## `Today Update`
 ### HashTable
-#### 380 Insert Delete GetRandom O(1)
-*  [Github:#380 Insert Delete GetRandom O(1)](/HashTable/HashTable.Lib/RandomizedSet.cs)
-*  [CSDN:#380 Insert Delete GetRandom O(1)](http://blog.csdn.net/daigualu/article/details/71550547)
-* RandomizedSet: ![RandomizedSet](/HashTable/HashTable.Lib/Randomized.jpg)
-#### 451 Sort Characters By Frequency
-*  [Github:#451 Sort Characters By Frequency](/HashTable/HashTable.Lib/FrequSortSln.cs)
-*  [CSDN:#451 Sort Characters By Frequency](http://blog.csdn.net/daigualu/article/details/71566159)
-   * this problem solving is not by sorting order by frequency of chars! please read it.
+#### 575 Distribute Candies
+*  [Github:#575 Distribute Candies](/HashTable/HashTable.Lib/RandomizedSet.cs)
+*  [CSDN:#575 Distribute Candies](http://blog.csdn.net/daigualu/article/details/71625170)
+####  381 Insert Delete GetRandom O(1) - Duplicates allowed
+*  [Github:# 381 Insert Delete GetRandom O(1) - Duplicates allowed](/HashTable/HashTable.Lib/RandomizedCollection.cs)
+*  [CSDN:#381 Insert Delete GetRandom O(1) - Duplicates allowed](http://blog.csdn.net/daigualu/article/details/71618673)
+* RandomizedCollection: ![RandomizedCollection](/HashTable/HashTable.Lib/Randomized.jpg)
 ---
 ---
 
@@ -110,6 +109,14 @@ Tags are following:
 #### 389 Find the Difference
 *  [Github:#389 Find the Difference](/HashTable/HashTable.Lib/FindDifferenceSln.cs)
 *  [CSDN:#389 Find the Difference](http://blog.csdn.net/daigualu/article/details/71450823)
+#### 380 Insert Delete GetRandom O(1)
+*  [Github:#380 Insert Delete GetRandom O(1)](/HashTable/HashTable.Lib/RandomizedSet.cs)
+*  [CSDN:#380 Insert Delete GetRandom O(1)](http://blog.csdn.net/daigualu/article/details/71550547)
+* RandomizedSet: ![RandomizedSet](/HashTable/HashTable.Lib/Randomized.jpg)
+#### 451 Sort Characters By Frequency
+*  [Github:#451 Sort Characters By Frequency](/HashTable/HashTable.Lib/FrequSortSln.cs)
+*  [CSDN:#451 Sort Characters By Frequency](http://blog.csdn.net/daigualu/article/details/71566159)
+   * this problem solving is not by sorting order by frequency of chars! please read it.
 
 ## Linked List
 * [#141 Linked List Cycle](http://blog.csdn.net/daigualu/article/details/69055927)

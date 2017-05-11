@@ -41,6 +41,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Boomerangs.cs" />
+    <Compile Include="FindDifferenceSln.cs" />
+    <Compile Include="KeyBoradRowSln.cs" />
     <Compile Include="LongestPalindrome.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SingleOneSln.cs" />
