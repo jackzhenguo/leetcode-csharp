@@ -3,12 +3,12 @@
 * CSDN Column(http://blog.csdn.net/column/details/14761.html) where detail solutions are.
 ## `Today Update`
 ### HashTable
-#### 575 Distribute Candies
-*  [Github:#575 Distribute Candies](/HashTable/HashTable.Lib/DistributeCandiessln.cs)
-*  [CSDN:#575 Distribute Candies](http://blog.csdn.net/daigualu/article/details/71625170)
-####  381 Insert Delete GetRandom O(1) - Duplicates allowed
-*  [Github:# 381 Insert Delete GetRandom O(1) - Duplicates allowed](/HashTable/HashTable.Lib/RandomizedCollection.cs)
-*  [CSDN:#381 Insert Delete GetRandom O(1) - Duplicates allowed](http://blog.csdn.net/daigualu/article/details/71618673)
+#### 144 Binary Tree Preorder Traversal Stack version
+*  [Github:#144 Binary Tree Preorder Traversal Stack version](/Tree/Tree.TreeLib/PreOrderStack.cs)
+*  [CSDN:#144 Binary Tree Preorder Traversal Stack version](http://blog.csdn.net/daigualu/article/details/71749303)
+####  94 Binary Tree Inorder Traversal Stack version
+*  [Github:#94 Binary Tree Inorder Traversal Stack version](/Tree/Tree.TreeLib/InorderStack.cs)
+*  [CSDN:#94 Binary Tree Inorder Traversal Stack version](http://blog.csdn.net/daigualu/article/details/71747542)
 
 ---
 ---
@@ -117,6 +117,12 @@ Tags are following:
 *  [Github:#451 Sort Characters By Frequency](/HashTable/HashTable.Lib/FrequSortSln.cs)
 *  [CSDN:#451 Sort Characters By Frequency](http://blog.csdn.net/daigualu/article/details/71566159)
    * this problem solving is not by sorting order by frequency of chars! please read it.
+#### 575 Distribute Candies
+*  [Github:#575 Distribute Candies](/HashTable/HashTable.Lib/DistributeCandiessln.cs)
+*  [CSDN:#575 Distribute Candies](http://blog.csdn.net/daigualu/article/details/71625170)
+####  381 Insert Delete GetRandom O(1) - Duplicates allowed
+*  [Github:# 381 Insert Delete GetRandom O(1) - Duplicates allowed](/HashTable/HashTable.Lib/RandomizedCollection.cs)
+*  [CSDN:#381 Insert Delete GetRandom O(1) - Duplicates allowed](http://blog.csdn.net/daigualu/article/details/71618673)
 
 ## Linked List
 * [#141 Linked List Cycle](http://blog.csdn.net/daigualu/article/details/69055927)
