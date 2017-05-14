@@ -9,6 +9,11 @@
  ####  95 Unique Binary Search Trees II
 *  [Github:#95 Unique Binary Search Trees II](/Tree/Tree.TreeLib/UniqueBSTSln.cs)
 *  [CSDN:#95 Unique Binary Search Trees II](http://blog.csdn.net/daigualu/article/details/72051612)
+   * this is the famous "Catalan number", please reference https://en.wikipedia.org/wiki/Catalan_number
+     * apply 1: valid stack oepration: ((ab)c)d     (a(bc))d     (ab)(cd)     a((bc)d)     a(b(cd))
+	 * apply 2: ![binary trees](/Tree/Tree.TreeLib/binarytrees.jpg)
+	 * apply 3: ![triangles](/Tree/Tree.TreeLib/triangles.jpg)
+	 * apply 4: ![stairs](/Tree/Tree.TreeLib/stairs.jpg)
 ---
 ---
 
