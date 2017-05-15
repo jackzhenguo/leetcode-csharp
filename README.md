@@ -3,17 +3,10 @@
 * CSDN Column(http://blog.csdn.net/column/details/14761.html) where detail solutions are.
 ## `Today Update`
 ### Tree
-####  103 Binary Tree Zigzag Level Order Traversal
-*  [Github:#103 Binary Tree Zigzag Level Order Traversal](/Tree/Tree.TreeLib/ZigzagLevelOrder.cs)
-*  [CSDN:#103 Binary Tree Zigzag Level Order Traversal](http://blog.csdn.net/daigualu/article/details/72039636)
- ####  95 Unique Binary Search Trees II
-*  [Github:#95 Unique Binary Search Trees II](/Tree/Tree.TreeLib/UniqueBSTSln.cs)
-*  [CSDN:#95 Unique Binary Search Trees II](http://blog.csdn.net/daigualu/article/details/72051612)
-   * this is the famous "Catalan number", please reference https://en.wikipedia.org/wiki/Catalan_number
-     * apply 1: valid stack oepration: ((ab)c)d     (a(bc))d     (ab)(cd)     a((bc)d)     a(b(cd))
-	 * apply 2: ![binary trees](/Tree/Tree.TreeLib/binarytrees.jpg)
-	 * apply 3: ![triangles](/Tree/Tree.TreeLib/triangles.jpg)
-	 * apply 4: ![stairs](/Tree/Tree.TreeLib/stairs.jpg)
+####  105 Construct Binary Tree from Preorder and Inorder Traversal
+*  [Github:#105 Construct Binary Tree from Preorder and Inorder Traversal](/Tree/Tree.TreeLib/BuildTreeByPreAndInorder.cs)
+*  [CSDN:#105 Construct Binary Tree from Preorder and Inorder Traversal](http://blog.csdn.net/daigualu/article/details/72127022)
+
 ---
 ---
 
@@ -222,3 +215,14 @@ Tags are following:
 *  [Github:#572 Subtree of Another Tree](/Tree/Tree.TreeLib/IsSameTreeSln.cs)
 *  [CSDN:#572 Subtree of Another Tree](http://blog.csdn.net/daigualu/article/details/71908238)
    * Subtree of Another Tree: it's extended from problem of "is same tree".
+####  103 Binary Tree Zigzag Level Order Traversal
+*  [Github:#103 Binary Tree Zigzag Level Order Traversal](/Tree/Tree.TreeLib/ZigzagLevelOrder.cs)
+*  [CSDN:#103 Binary Tree Zigzag Level Order Traversal](http://blog.csdn.net/daigualu/article/details/72039636)
+ ####  95 Unique Binary Search Trees II
+*  [Github:#95 Unique Binary Search Trees II](/Tree/Tree.TreeLib/UniqueBSTSln.cs)
+*  [CSDN:#95 Unique Binary Search Trees II](http://blog.csdn.net/daigualu/article/details/72051612)
+   * this is the famous "Catalan number", please reference https://en.wikipedia.org/wiki/Catalan_number
+     * apply 1: valid stack oepration: ((ab)c)d     (a(bc))d     (ab)(cd)     a((bc)d)     a(b(cd))
+	 * apply 2: ![binary trees](/Tree/Tree.TreeLib/binarytrees.jpg)
+	 * apply 3: ![triangles](/Tree/Tree.TreeLib/triangles.jpg)
+	 * apply 4: ![stairs](/Tree/Tree.TreeLib/stairs.jpg)
