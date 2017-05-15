@@ -6,7 +6,10 @@
 ####  105 Construct Binary Tree from Preorder and Inorder Traversal
 *  [Github:#105 Construct Binary Tree from Preorder and Inorder Traversal](/Tree/Tree.TreeLib/BuildTreeByPreAndInorder.cs)
 *  [CSDN:#105 Construct Binary Tree from Preorder and Inorder Traversal](http://blog.csdn.net/daigualu/article/details/72127022)
-
+*  Tips:
+   * the most important function in solving this issue is 
+       *  private TreeNode bulidTree(int preStart, int inStart, int inEnd) ;
+   * Plus, preStart index in preorder is the root index, which is also the separate point in inorder and it’s left is left subtree and right is right subtree.
 ---
 ---
 
