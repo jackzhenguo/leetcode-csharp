@@ -7,7 +7,7 @@
 *  [Github:#453 Minimum Moves to Equal Array Elements](/Math/Math.Lib/MinimumMovesSln.cs)
 *  [CSDN:#453 Minimum Moves to Equal Array Elements](http://blog.csdn.net/daigualu/article/details/72354061)
 *  Tips:
-   * using Math equation to solve this issue!
+   * using Math equation to solve this issue.
 
 ---
 ---
