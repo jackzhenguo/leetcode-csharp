@@ -3,11 +3,11 @@
 * CSDN Column(http://blog.csdn.net/column/details/14761.html) where detail solutions are.
 ## `Today Update`
 ### Math
-####  453 Minimum Moves to Equal Array Elements
-*  [Github:#453 Minimum Moves to Equal Array Elements](/Math/Math.Lib/MinimumMovesSln.cs)
-*  [CSDN:#453 Minimum Moves to Equal Array Elements](http://blog.csdn.net/daigualu/article/details/72354061)
+####  415 Add Strings
+*  [Github:#415 Add Strings](/Math/Math.Lib/AddStringsSln.cs)
+*  [CSDN:#415 Add Strings](http://blog.csdn.net/daigualu/article/details/72356377)
 *  Tips:
-   * using Math equation to solve this issue!
+   * this is an interesting question!
 
 ---
 ---
@@ -153,6 +153,11 @@ Tags are following:
    * Floyd's Tortoise and Hare
    * reference:https://en.wikipedia.org/wiki/Cycle_detection
    * image: ![Floyd's Tortoise and Hare](/Math/Math.Lib/Floyd'sTortoiseandHare.jpg)
+ ####  453 Minimum Moves to Equal Array Elements
+*  [Github:#453 Minimum Moves to Equal Array Elements](/Math/Math.Lib/MinimumMovesSln.cs)
+*  [CSDN:#453 Minimum Moves to Equal Array Elements](http://blog.csdn.net/daigualu/article/details/72354061)
+*  Tips:
+   * using Math equation to solve this issue!
 
 ## Two Pointers
 * [#345	Reverse Vowels of a String](http://blog.csdn.net/daigualu/article/details/69257693)
