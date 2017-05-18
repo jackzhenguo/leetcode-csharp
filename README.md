@@ -104,14 +104,12 @@ Tags are following:
 #### 500 Keyboard Row
 *  [Github:#500 Keyboard Row](/HashTable/HashTable.Lib/KeyBoradRowSln.cs)
 *  [CSDN:#500 Keyboard Row](http://blog.csdn.net/daigualu/article/details/71447614)
-* KeyBoard: ![KeyBoard](/HashTable/HashTable.Lib/KeyBoard.jpg)
 #### 389 Find the Difference
 *  [Github:#389 Find the Difference](/HashTable/HashTable.Lib/FindDifferenceSln.cs)
 *  [CSDN:#389 Find the Difference](http://blog.csdn.net/daigualu/article/details/71450823)
 #### 380 Insert Delete GetRandom O(1)
 *  [Github:#380 Insert Delete GetRandom O(1)](/HashTable/HashTable.Lib/RandomizedSet.cs)
 *  [CSDN:#380 Insert Delete GetRandom O(1)](http://blog.csdn.net/daigualu/article/details/71550547)
-* RandomizedSet: ![RandomizedSet](/HashTable/HashTable.Lib/Randomized.jpg)
 #### 451 Sort Characters By Frequency
 *  [Github:#451 Sort Characters By Frequency](/HashTable/HashTable.Lib/FrequSortSln.cs)
 *  [CSDN:#451 Sort Characters By Frequency](http://blog.csdn.net/daigualu/article/details/71566159)
@@ -152,7 +150,6 @@ Tags are following:
 *   [CSDN:#202 Happy Number](http://blog.csdn.net/daigualu/article/details/71433906)
    * Floyd's Tortoise and Hare
    * reference:https://en.wikipedia.org/wiki/Cycle_detection
-   * image: ![Floyd's Tortoise and Hare](/Math/Math.Lib/Floyd'sTortoiseandHare.jpg)
  ####  453 Minimum Moves to Equal Array Elements
 *  [Github:#453 Minimum Moves to Equal Array Elements](/Math/Math.Lib/MinimumMovesSln.cs)
 *  [CSDN:#453 Minimum Moves to Equal Array Elements](http://blog.csdn.net/daigualu/article/details/72354061)
