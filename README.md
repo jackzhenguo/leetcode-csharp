@@ -3,11 +3,11 @@
 * CSDN Column(http://blog.csdn.net/column/details/14761.html) where detail solutions are.
 ## `Today Update`
 ### Math
-####  415 Add Strings
-*  [Github:#415 Add Strings](/Math/Math.Lib/AddStringsSln.cs)
-*  [CSDN:#415 Add Strings](http://blog.csdn.net/daigualu/article/details/72356377)
+####  7 Reverse Integer
+*  [Github:#7 Reverse Integer](/Math/Math.Lib/ReverseIntegarSln.cs)
+*  [CSDN:#7 Reverse Integer](http://blog.csdn.net/daigualu/article/details/72464418)
 *  Tips:
-   * this is an interesting question!
+   * an interesting way to check if happens overflow.
 
 ---
 ---
@@ -158,6 +158,11 @@ Tags are following:
 *  [CSDN:#453 Minimum Moves to Equal Array Elements](http://blog.csdn.net/daigualu/article/details/72354061)
 *  Tips:
    * using Math equation to solve this issue!
+####  415 Add Strings
+*  [Github:#415 Add Strings](/Math/Math.Lib/AddStringsSln.cs)
+*  [CSDN:#415 Add Strings](http://blog.csdn.net/daigualu/article/details/72356377)
+*  Tips:
+   * this is an interesting question!
 
 ## Two Pointers
 * [#345	Reverse Vowels of a String](http://blog.csdn.net/daigualu/article/details/69257693)
