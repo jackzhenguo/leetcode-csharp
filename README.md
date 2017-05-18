@@ -1,6 +1,8 @@
 # leetcode-csharp
 * Welcome to visit my CSDN blog(http://blog.csdn.net/daigualu) 
 * CSDN Column(http://blog.csdn.net/column/details/14761.html) where detail solutions are.
+## Leetcode-csharp Wiki
+[Wiki](https://github.com/jackzhenguo/leetcode-csharp/wiki)
 ## `Today Update`
 ### Math
 ####  7 Reverse Integer
