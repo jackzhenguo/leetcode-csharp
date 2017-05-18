@@ -2,7 +2,16 @@
 * Welcome to visit my CSDN blog(http://blog.csdn.net/daigualu) 
 * CSDN Column(http://blog.csdn.net/column/details/14761.html) where detail solutions are.
 ## Leetcode-csharp Wiki
-[Wiki](https://github.com/jackzhenguo/leetcode-csharp/wiki)
+[My Wiki for this repository](https://github.com/jackzhenguo/leetcode-csharp/wiki)
+
+## Contributing
+
+1. Fork it!
+2. Create your feature branch: git checkout -b my-leetcode-csharp
+3. Commit your changes: git commit -am 'Add some questions and better solutions'
+4. Push to the branch: git push origin my-leetcode-csharp
+5. Submit a pull request and enjoy! :D
+
 ## `Today Update`
 ### Math
 ####  7 Reverse Integer
