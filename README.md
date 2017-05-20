@@ -14,11 +14,36 @@
 
 ## `Today Update`
 ### Math
-####  7 Reverse Integer
-*  [Github:#7 Reverse Integer](/Math/Math.Lib/ReverseIntegarSln.cs)
-*  [CSDN:#7 Reverse Integer](http://blog.csdn.net/daigualu/article/details/72464418)
-*  Tips:
-   * an interesting way to check if happens overflow.
+####  400 Nth Digit
+*  [Github:#400 Nth Digit](/Math/Math.Lib/Nthdigit.cs)
+*  [CSDN:#400 Nth Digit](http://blog.csdn.net/daigualu/article/details/72572244)
+   * Tips:
+     * careful to prevent overflowing for bas*digits, so declaring bas is long.
+   ```C#
+           //for this issue, there are two different ways to decribe a number
+        //1 element. this is our common way
+        //2 Nth digit. this is a new way
+        public int FindNthDigit(int n)
+        {
+            long bas = 9;
+            int digits = 1, i = 0;
+            //first: getting n which digit is in
+            while (n > bas * digits) // prevent overflowing. Since bas is long, so result of bas*digits is auto imporved as long
+            {
+                n -= (int)(bas * (digits++)); //nth
+                i += (int)bas; //number of pasted elements
+                bas *= 10; //1 digit->9; 2 digits->90; 3 digits->900, ...   
+            }
+            //second: Nth digit ->element
+            //in all numbers containing digits, pasted numbers
+            int pasted = (int)((n - 1) / digits);
+            int element = pasted + i + 1;
+            //third: once getting the element Nth digits stands,
+            //(n-1)%digits of element is solution
+            int nth = (n - 1) % digits;
+            return element.ToString()[nth] - '0';
+        }
+   ```
 
 ---
 ---
@@ -155,6 +180,12 @@ Tags are following:
 * [#268 Missing Number](http://blog.csdn.net/daigualu/article/details/69220202)
 
 * [#507	Perfect Number](http://blog.csdn.net/daigualu/article/details/69233798)
+
+####  7 Reverse Integer
+*  [Github:#7 Reverse Integer](/Math/Math.Lib/ReverseIntegarSln.cs)
+*  [CSDN:#7 Reverse Integer](http://blog.csdn.net/daigualu/article/details/72464418)
+*  Tips:
+   * an interesting way to check if happens overflow.
 
 #### 202 Happy Number
  *  [Github:#202 Happy Number](/Math/Math.Lib/HappyNumber.cs)
