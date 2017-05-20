@@ -44,7 +44,11 @@
             return element.ToString()[nth] - '0';
         }
    ```
-
+#### 69 Sqrt(x)
+*  [Github:#69 Sqrt(x)](/Math/Math.Lib/Sqrtx.cs)
+*  [CSDN:#69 Sqrt(x)](http://blog.csdn.net/daigualu/article/details/72578272)
+   * Tips:
+     * careful to prevent overflowing for bas*digits, so declaring bas is long.
 ---
 ---
 
