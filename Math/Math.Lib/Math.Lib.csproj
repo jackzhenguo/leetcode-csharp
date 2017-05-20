@@ -40,10 +40,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AddStringsSln.cs" />
+    <Compile Include="HappyNumber.cs" />
+    <Compile Include="MinimumMovesSln.cs" />
     <Compile Include="MissingNumberSln.cs" />
+    <Compile Include="Nthdigit.cs" />
     <Compile Include="PerfectNumberSln.cs" />
     <Compile Include="PowerOfTwoSln.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ReverseIntegarSln - Copy.cs" />
+    <Compile Include="ReverseIntegarSln.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Floyd%27sTortoiseandHare.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
