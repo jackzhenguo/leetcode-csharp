@@ -9,6 +9,7 @@ namespace Math.Lib
     {
         public int MySqrt(int x)
         {
+			if(x==0 || x==1)return x;
             int lo = 0, hi = x;
             while (lo - hi < -1)
             {
