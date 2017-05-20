@@ -48,7 +48,25 @@
 *  [Github:#69 Sqrt(x)](/Math/Math.Lib/Sqrtx.cs)
 *  [CSDN:#69 Sqrt(x)](http://blog.csdn.net/daigualu/article/details/72578272)
    * Tips:
-     * careful to prevent overflowing for bas*digits, so declaring bas is long.
+     * careful to prevent overflowing for bas*digits.
+	 ```C#
+	    public int MySqrt(int x)
+        {
+            int lo = 0, hi = x ;
+            while (lo - hi < -1)
+            {
+            //get [lo,hi] middle point,then compare pow2 to x,
+            // lo or hi is setted by mid
+            //so accelarate the process
+                long mid = lo + (hi - lo) / 2; //prevent overflowing
+                long pow2 = mid * mid; //prevent overflowing
+                if (pow2 < x) lo = (int)mid;
+                else if (pow2 > x) hi = (int)mid;
+                else return (int)mid;
+            }
+            return lo;
+        }
+	 ```
 ---
 ---
 
