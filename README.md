@@ -3,7 +3,7 @@ Algorithm is tool for exercising our thinking patterns, and we can strengthen th
 
 I create this respository called **leetcode-csharp** because I apply C# language to solove LeetCode and `every day` will update it and also publish it in `CSDN blog`(http://blog.csdn.net/daigualu) my blog column(http://blog.csdn.net/column/details/14761.html) Also, I will write some famous algorithm ideas on [My Wiki for this repository](https://github.com/jackzhenguo/leetcode-csharp/wiki) such as`Flody tortoise and hare` and `KMP`and so on. 
 
-Anyway, Welcome to view and contribute.
+Anyway, welcome to view, star and fork, then contribute.
 
 ## Contributing
 1. Fork it!
