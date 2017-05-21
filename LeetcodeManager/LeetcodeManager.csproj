@@ -1,0 +1,157 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{A52A677C-7525-4D71-83C4-B72FBC6FF500}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>LeetcodeManager</RootNamespace>
+    <AssemblyName>LeetcodeManager</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Infragistics2.Shared.v12.1">
+      <HintPath>Assembly\Infragistics2.Shared.v12.1.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics2.Win.UltraWinEditors.v12.1">
+      <HintPath>Assembly\Infragistics2.Win.UltraWinEditors.v12.1.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics2.Win.UltraWinGrid.v12.1">
+      <HintPath>Assembly\Infragistics2.Win.UltraWinGrid.v12.1.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics2.Win.v12.1">
+      <HintPath>Assembly\Infragistics2.Win.v12.1.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DAL\BaseDAL.cs" />
+    <Compile Include="Controller\ProblemInputController.cs" />
+    <Compile Include="Controller\TagInputController.cs" />
+    <Compile Include="DAL\ProblemDAL.cs" />
+    <Compile Include="DAL\TagDAL.cs" />
+    <Compile Include="DAL\MyDb.cs" />
+    <Compile Include="Entity\Problem.cs" />
+    <Compile Include="Entity\Tag.cs" />
+    <Compile Include="Lib\SysHelper.cs" />
+    <Compile Include="Migrations\201705181454483_InitialCreate.cs" />
+    <Compile Include="Migrations\201705181454483_InitialCreate.Designer.cs">
+      <DependentUpon>201705181454483_InitialCreate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201705201210027_Title.cs" />
+    <Compile Include="Migrations\201705201210027_Title.Designer.cs">
+      <DependentUpon>201705201210027_Title.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="View\MasterForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\MasterForm.Designer.cs">
+      <DependentUpon>MasterForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="View\ProblemInputForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\ProblemInputForm.Designer.cs">
+      <DependentUpon>ProblemInputForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\TagInputForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\TagInputForm.Designer.cs">
+      <DependentUpon>TagInputForm.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Migrations\201705181454483_InitialCreate.resx">
+      <DependentUpon>201705181454483_InitialCreate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201705201210027_Title.resx">
+      <DependentUpon>201705201210027_Title.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\MasterForm.resx">
+      <DependentUpon>MasterForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="View\ProblemInputForm.resx">
+      <DependentUpon>ProblemInputForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\TagInputForm.resx">
+      <DependentUpon>TagInputForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\DataSources\LeetcodeManager.Entity.Problem.datasource" />
+    <None Include="Properties\DataSources\LeetcodeManager.Entity.Tag.datasource" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
