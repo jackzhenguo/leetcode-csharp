@@ -14,58 +14,69 @@ Anyway, welcome to view, star and fork, then contribute.
 
 ## `Today Update`
 ### Math
-####  400 Nth Digit
-*  [Github:#400 Nth Digit](/Math/Math.Lib/Nthdigit.cs)
-*  [CSDN:#400 Nth Digit](http://blog.csdn.net/daigualu/article/details/72572244)
+#### 168 ExcelColumnTitle
+*  [Github:#168 ExcelColumnTitle](/Math/Math.Lib/ExcelColumnTitle.cs)
+*  [CSDN:#168 ExcelColumnTitle](http://blog.csdn.net/daigualu/article/details/72638706)
    * Tips:
-     * careful to prevent overflowing for bas*digits, so declaring bas is long.
-   ```C#
-           //for this issue, there are two different ways to decribe a number
-        //1 element. this is our common way
-        //2 Nth digit. this is a new way
-        public int FindNthDigit(int n)
-        {
-            long bas = 9;
-            int digits = 1, i = 0;
-            //first: getting n which digit is in
-            while (n > bas * digits) // prevent overflowing. Since bas is long, so result of bas*digits is auto imporved as long
-            {
-                n -= (int)(bas * (digits++)); //nth
-                i += (int)bas; //number of pasted elements
-                bas *= 10; //1 digit->9; 2 digits->90; 3 digits->900, ...   
-            }
-            //second: Nth digit ->element
-            //in all numbers containing digits, pasted numbers
-            int pasted = (int)((n - 1) / digits);
-            int element = pasted + i + 1;
-            //third: once getting the element Nth digits stands,
-            //(n-1)%digits of element is solution
-            int nth = (n - 1) % digits;
-            return element.ToString()[nth] - '0';
-        }
-   ```
-#### 69 Sqrt(x)
-*  [Github:#69 Sqrt(x)](/Math/Math.Lib/Sqrtx.cs)
-*  [CSDN:#69 Sqrt(x)](http://blog.csdn.net/daigualu/article/details/72578272)
-   * Tips:
-     * careful to prevent overflowing! Again careful to **overflow**!
+     * / and % operations application
 	 ```C#
-	    public int MySqrt(int x)
+	   public string ConvertToTitle(int n)
         {
-		    if(x==0 || x==1)return x;
-            int lo = 0, hi = x ;
-            while (lo - hi < -1)
+            //A~Z:26
+            //AA~ZZ:26*26
+            //...
+            if (n == 1) return "A";
+            char[] chdict = {'A','B','C','D','E','F','G','H','I','J','K',
+            'L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z'};        
+            StringBuilder sb = new StringBuilder();
+            while (n > 0)
             {
-            //get [lo,hi] middle point,then compare pow2 to x,
-            // lo or hi is setted by mid
-            //so accelarate the process
-                long mid = lo + (hi - lo) / 2; //prevent overflowing
-                long pow2 = mid * mid; //prevent overflowing
-                if (pow2 < x) lo = (int)mid;
-                else if (pow2 > x) hi = (int)mid;
-                else return (int)mid;
+                n--; //beacuse our chdict's index begins Zero.
+                sb.Append(chdict[n % 26]);
+                n = n / 26;
             }
-            return lo;
+            IEnumerable<char> rtnchars = sb.ToString().Reverse();
+            sb.Clear();
+            foreach (var ch in rtnchars) sb.Append(ch);               
+            return sb.ToString();
+        }
+	 ```
+
+#### 67 Add Binary
+*  [Github:#67 Add Binary](/Math/Math.Lib/AddBinarySln.cs)
+*  [CSDN:#67 Add Binary](http://blog.csdn.net/daigualu/article/details/72638937)
+   * Tips:
+     * carry bit application!
+	 ```C#
+	    public string AddBinary(string a, string b)
+        {
+            StringBuilder sb = new StringBuilder();
+            int carry = 0, acnt = a.Length, bcnt = b.Length;
+            for (int i = acnt - 1, j = bcnt - 1; i >= 0 || j >= 0 || carry == 1; i--, j--){           
+                int sum2 = 0;
+                if (i < 0 && j < 0){ //overflow solving               
+                    sb.Append(carry);
+                    carry = 0;
+                    continue;
+                }
+                //discuss three conditions according to i and j
+                if (i < 0) sum2 = b[j] - '0';
+                else if (j < 0) sum2 = a[i] - '0';
+                else sum2 = a[i] - '0' + b[j] - '0';
+                if (sum2 + carry < 2){
+                    sb.Append(sum2 + carry);
+                    carry = 0;
+                }
+                else {
+                    sb.Append(sum2 + carry - 2);
+                    carry = 1;
+                }
+            }
+            //reverse the sb
+            IEnumerable<char> rtnchars = sb.ToString().Reverse();
+            sb.Clear();
+            foreach (var ch in rtnchars) sb.Append(ch);
+            return sb.ToString();
         }
 	 ```
 ---
@@ -209,7 +220,7 @@ Tags are following:
 *  [CSDN:#7 Reverse Integer](http://blog.csdn.net/daigualu/article/details/72464418)
 *  Tips:
    * an interesting way to check if happens overflow.
-
+  
 #### 202 Happy Number
  *  [Github:#202 Happy Number](/Math/Math.Lib/HappyNumber.cs)
 *   [CSDN:#202 Happy Number](http://blog.csdn.net/daigualu/article/details/71433906)
@@ -225,6 +236,17 @@ Tags are following:
 *  [CSDN:#415 Add Strings](http://blog.csdn.net/daigualu/article/details/72356377)
 *  Tips:
    * this is an interesting question!
+####  400 Nth Digit
+*  [Github:#400 Nth Digit](/Math/Math.Lib/Nthdigit.cs)
+*  [CSDN:#400 Nth Digit](http://blog.csdn.net/daigualu/article/details/72572244)
+   * Tips:
+     * careful to prevent overflowing for bas*digits, so declaring bas is long.
+
+#### 69 Sqrt(x)
+*  [Github:#69 Sqrt(x)](/Math/Math.Lib/Sqrtx.cs)
+*  [CSDN:#69 Sqrt(x)](http://blog.csdn.net/daigualu/article/details/72578272)
+   * Tips:
+     * careful to prevent overflowing! Again careful to **overflow**!
 
 ## Two Pointers
 * [#345	Reverse Vowels of a String](http://blog.csdn.net/daigualu/article/details/69257693)
