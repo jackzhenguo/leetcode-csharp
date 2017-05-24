@@ -14,71 +14,14 @@ Anyway, welcome to view, star and fork, then contribute.
 
 ## `Today Update`
 ### Math
-#### 168 ExcelColumnTitle
-*  [Github:#168 ExcelColumnTitle](/Math/Math.Lib/ExcelColumnTitle.cs)
-*  [CSDN:#168 ExcelColumnTitle](http://blog.csdn.net/daigualu/article/details/72638706)
-   * Tips:
-     * / and % operations application
-	 ```C#
-	   public string ConvertToTitle(int n)
-        {
-            //A~Z:26
-            //AA~ZZ:26*26
-            //...
-            if (n == 1) return "A";
-            char[] chdict = {'A','B','C','D','E','F','G','H','I','J','K',
-            'L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z'};        
-            StringBuilder sb = new StringBuilder();
-            while (n > 0)
-            {
-                n--; //beacuse our chdict's index begins Zero.
-                sb.Append(chdict[n % 26]);
-                n = n / 26;
-            }
-            IEnumerable<char> rtnchars = sb.ToString().Reverse();
-            sb.Clear();
-            foreach (var ch in rtnchars) sb.Append(ch);               
-            return sb.ToString();
-        }
-	 ```
+#### 9 Palindrome Number
+*  [Github:#9 Palindrome Number](/Math/Math.Lib/IssPalindromeSln.cs)
+*  [CSDN:#9 Palindrome Number](http://blog.csdn.net/daigualu/article/details/72717009)
 
-#### 67 Add Binary
-*  [Github:#67 Add Binary](/Math/Math.Lib/AddBinarySln.cs)
-*  [CSDN:#67 Add Binary](http://blog.csdn.net/daigualu/article/details/72638937)
-   * Tips:
-     * carry bit application!
-	 ```C#
-	    public string AddBinary(string a, string b)
-        {
-            StringBuilder sb = new StringBuilder();
-            int carry = 0, acnt = a.Length, bcnt = b.Length;
-            for (int i = acnt - 1, j = bcnt - 1; i >= 0 || j >= 0 || carry == 1; i--, j--){           
-                int sum2 = 0;
-                if (i < 0 && j < 0){ //overflow solving               
-                    sb.Append(carry);
-                    carry = 0;
-                    continue;
-                }
-                //discuss three conditions according to i and j
-                if (i < 0) sum2 = b[j] - '0';
-                else if (j < 0) sum2 = a[i] - '0';
-                else sum2 = a[i] - '0' + b[j] - '0';
-                if (sum2 + carry < 2){
-                    sb.Append(sum2 + carry);
-                    carry = 0;
-                }
-                else {
-                    sb.Append(sum2 + carry - 2);
-                    carry = 1;
-                }
-            }
-            //reverse the sb
-            IEnumerable<char> rtnchars = sb.ToString().Reverse();
-            sb.Clear();
-            foreach (var ch in rtnchars) sb.Append(ch);
-            return sb.ToString();
-        }
-	 ```
+#### 171 Excel Sheet Column Number
+*  [Github:#171 Excel Sheet Column Number](/Math/Math.Lib/ExcelColumnNumberSln.cs)
+*  [CSDN:#171 Excel Sheet Column Number](http://blog.csdn.net/daigualu/article/details/72717145)
+  	 
 ---
 ---
 
