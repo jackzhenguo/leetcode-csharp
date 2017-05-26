@@ -1,4 +1,5 @@
 # `Today Update`
+(Notes: "&hearts;" Welcome!)
 ## Math
 ### 263 Ugly Number
 *  [Github:#263 Ugly Number](/Math/Math.Lib/UglyNumberSln.cs)
