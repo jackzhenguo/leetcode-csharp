@@ -3,7 +3,7 @@
 ### 263 Ugly Number
 *  [Github:#263 Ugly Number](/Math/Math.Lib/UglyNumberSln.cs)
 *  [CSDN:#263 Ugly Number](http://blog.csdn.net/daigualu/article/details/72765438)
-   * ```C#
+   ```C#
     public bool IsUgly(int num)
      {
             if (num <= 0) return false;
