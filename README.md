@@ -1,15 +1,27 @@
 # `Today Update`
 ## Math
-### 258 Add Digits
-*  [Github:#258 Add Digits](/Math/Math.Lib/AddDigitsSln.cs)
-*  [CSDN:#258 Add Digits](http://blog.csdn.net/daigualu/article/details/72724479)
-   * Tips:
-     * https://en.wikipedia.org/wiki/Digital_root#Congruence_formula 
-     * https://en.wikipedia.org/wiki/Vedic_square
-   * In Indian mathematics, a Vedic square is a variation on a typical 9 × 9 multiplication table where the entry in each cell is the digital root of the product of the column and row headings i.e. the remainder when the product of the row and column headings is divided by 9 (with remainder 0 represented by 9). Numerous geometric patterns and symmetries can be observed in a Vedic square some of which can be found in traditional Islamic art.   
-    ![VedicSquare](/Math/Math.Lib/VedicSquare.png)
-
----
+### 263 Ugly Number
+*  [Github:#263 Ugly Number](/Math/Math.Lib/UglyNumberSln.cs)
+*  [CSDN:#263 Ugly Number](http://blog.csdn.net/daigualu/article/details/72765438)
+   * ```C#
+    public bool IsUgly(int num)
+     {
+            if (num <= 0) return false;
+            if (num == 1) return true;
+            while (num >1)
+            {
+                if(num%2==0)
+                  num /= 2;
+                else if (num%3 == 0)
+                    num /= 3;
+                else if (num%5 == 0)
+                    num /= 5;
+                else return false;
+            }
+            return true;
+    }
+     ```
+--
 ---
 
 
@@ -198,6 +210,16 @@ Tags are following:
 ### 171 Excel Sheet Column Number
 *  [Github:#171 Excel Sheet Column Number](/Math/Math.Lib/ExcelColumnNumberSln.cs)
 *  [CSDN:#171 Excel Sheet Column Number](http://blog.csdn.net/daigualu/article/details/72717145)
+### 258 Add Digits
+*  [Github:#258 Add Digits](/Math/Math.Lib/AddDigitsSln.cs)
+*  [CSDN:#258 Add Digits](http://blog.csdn.net/daigualu/article/details/72724479)
+   * Tips:
+     * https://en.wikipedia.org/wiki/Digital_root#Congruence_formula 
+     * https://en.wikipedia.org/wiki/Vedic_square
+   * In Indian mathematics, a Vedic square is a variation on a typical 9 × 9 multiplication table where the entry in each cell is the digital root of the product of the column and row headings i.e. the remainder when the product of the row and column headings is divided by 9 (with remainder 0 represented by 9). Numerous geometric patterns and symmetries can be observed in a Vedic square some of which can be found in traditional Islamic art.   
+    ![VedicSquare](/Math/Math.Lib/VedicSquare.png)
+
+
 ## Two Pointers
 * [#345	Reverse Vowels of a String](http://blog.csdn.net/daigualu/article/details/69257693)
 	
