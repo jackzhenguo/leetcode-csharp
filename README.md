@@ -1,5 +1,6 @@
 # `Today Update`
-(Notes: "&hearts;" Welcome!)
+(Notes: "&hearts;" Welcome to visit or fork or star my LeetCode Manager @
+https://github.com/jackzhenguo/LeetCodeManager
 ## Math
 ### 326 Power of Three
 *  [Github:#326 Power of Three](/Math/Math.Lib/PowerOfThreeSln.cs)
