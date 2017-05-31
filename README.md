@@ -10,19 +10,6 @@ Anyway, welcome to view, star and fork, then contribute.
 
 ## Solution List
 solutions using C# for leetcode according to tags of questions
-Tags are following:  
-* [Array](/Array)
-* [Hash Table](/HashTable)
-* [Linked List](/LinkedList)
-* [Math](/Math)
-* [Two Pointers](/TwoPointers)
-* [String](/String)
-* [Binary Search](/BinarySearch)
-* [Dynamic Programming](/DP)
-* [Stack](/Stack)
-* [Tree](/Tree)
-
-## Details
 * [Solution Array Details](DetailsMd/DetailsArray.md)
 * [Solution BinarySearch Details](DetailsMd/DetailsBinarySearch.md)
 * [Solution DynamicProgramming Details](DetailsMd/DetailsDynamicProgramming.md)
