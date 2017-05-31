@@ -266,7 +266,7 @@ Tags are following:
 
 ## Stack
 |Number| Title(Blog URL)| Pass Rate| Degree |
-|------|-------|--------|----------|--------|
+|------|----------------|--------|----------|
 225|[Implement Stack using Queues](http://blog.csdn.net/daigualu/article/details/70183272)|	32.0%|	Easy
 496|	[Next Greater Element I](http://blog.csdn.net/daigualu/article/details/70185529)	|57.5%	|Easy
 155|	[Min Stack](http://blog.csdn.net/daigualu/article/details/70185814)|	27.4%|	Easy
@@ -277,7 +277,7 @@ Tags are following:
 
 ## Binary Search
 |Number| Title(Blog URL)| Pass Rate| Degree |
-|------|-------|--------|----------|--------|
+|------|----------------|--------|----------|
 367	|[Valid Perfect Square](http://blog.csdn.net/daigualu/article/details/69787644)|	37.8%|	Easy
 270|	Closest Binary Search Tree Value| 	38.8%|	Easy
 167	|[Two Sum II - Input array is sorted](http://blog.csdn.net/daigualu/article/details/69787679)	|47.4%|	Easy
@@ -294,7 +294,7 @@ Tags are following:
 
 ## Dynamic Programming
 |Number| Title(Blog URL)| Pass Rate| Degree |
-|------|-------|--------|----------|--------|
+|------|----------------|--------|----------|
 53|	[Maximum Subarray](http://blog.csdn.net/daigualu/article/details/69936974)|	39.2%|	Easy|
 169|	[Majority Element](http://blog.csdn.net/daigualu/article/details/69937729)|	45.6%|	Easy|
 	303|	[Range Sum Query - Immutable](http://blog.csdn.net/daigualu/article/details/69938986)|	27.8%|	Easy|
@@ -309,7 +309,7 @@ Tags are following:
 
 ## Tree
 |Number| Title(Blog URL)| Pass Rate| Degree |
-|------|-------|--------|----------|--------|
+|------|----------------|--------|----------|
 107|	[Binary Tree Level Order Traversal II](http://blog.csdn.net/daigualu/article/details/70254459)|	39.0%|	Easy
 257	|[Binary Tree Paths](http://blog.csdn.net/daigualu/article/details/70340125)|	36.8%|	Easy
 501	|[Find Mode in Binary Search Tree](http://blog.csdn.net/daigualu/article/details/70341143)|	38.4%|	Easy
