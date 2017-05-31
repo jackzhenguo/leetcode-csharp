@@ -23,7 +23,16 @@ Tags are following:
 * [Tree](/Tree)
 
 ## Details
-[Leetcode Solution Details](/Details.md)
+* [Solution Array Details](DetailsMd/DetailsArray.md)
+* [Solution BinarySearch Details](DetailsMd/DetailsBinarySearch.md)
+* [Solution DynamicProgramming Details](DetailsMd/DetailsDynamicProgramming.md)
+* [Solution HashTable Details](DetailsMd/DetailsHashTable.md)
+* [Solution LinkedList Details](DetailsMd/DetailsLinkedList.md)
+* [Solution Math Details](DetailsMd/DetailsMath.md)
+* [Solution Stack Details](DetailsMd/DetailsStack.md)
+* [Solution String Details](DetailsMd/DetailsString.md)
+* [Solution Tree Details](DetailsMd/DetailsTree.md)
+* [Solution TwoPointers Details](DetailsMd/DetailsTwoPointers.md)
 
 ## Contributing
 1. Fork it!
