@@ -89,6 +89,10 @@ https://github.com/jackzhenguo/LeetCodeManager
         }
     }
    ```
+ ## Bit Mainpulation
+### 342 Power of Four
+*  [Github:#342 Power of Four](/BitManipulation/PowOfFourSln.cs)
+*  [CSDN:#342 Power of Four](http://blog.csdn.net/daigualu/article/details/72821233)
 ---
 
 
