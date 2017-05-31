@@ -24,6 +24,8 @@ Tags are following:
 * [Stack](/Stack)
 * [Tree](/Tree)
 
+---
+
 ## Details
 [Leetcode Solution Details](/Details.md)
 
