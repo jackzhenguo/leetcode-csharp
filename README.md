@@ -153,235 +153,175 @@ Tags are following:
 566| [Reshape the Matrix](http://blog.csdn.net/daigualu/article/details/71275325)	
 561| [Array Partition I](http://blog.csdn.net/daigualu/article/details/71273279)	
 
-#### 532 K-diff Pairs in an Array
-*  [Github:#532 K-diff Pairs in an Array](/Array/Array.Lib/FindPairsSln.cs)
-*  [CSDN:#532 K-diff Pairs in an Array](http://blog.csdn.net/daigualu/article/details/71129806)
-#### 217 Contains Duplicate
-*  [Github:#217 Contains Duplicate](/Array/Array.Lib/ContainsItemSln.cs)
-*  [CSDN:#217 Contains Duplicate](http://blog.csdn.net/daigualu/article/details/71123673)
-
-#### 448 Find All Numbers Disappeared in an Array
-*  [Github:#448 Find All Numbers Disappeared in an Array](/Array/Array.Lib/DisappearElementsSln.cs)
-*  [CSDN:#448 Find All Numbers Disappeared in an Array](http://blog.csdn.net/daigualu/article/details/71168875)
-#### 219 Contains Duplicate II
-*  [Github:219 Contains Duplicate II](/Array/Array.Lib/ContainsDuplicateIISln.cs)
-*  [CSDN:219 Contains Duplicate II](http://blog.csdn.net/daigualu/article/details/71166985)
-#### 189. Rotate Array
-*  [Github:189. Rotate Array](/Array/Array.Lib/RotateArraySln.cs)
-*  [CSDN:189. Rotate Array](http://blog.csdn.net/daigualu/article/details/71159419)
-
-#### 448 Find All Numbers Disappeared in an Array
-*  [Github:#448 Find All Numbers Disappeared in an Array](/Array/Array.Lib/DisappearElementsSln.cs)
-*  [CSDN: #448 Find All Numbers Disappeared in an Array](http://blog.csdn.net/daigualu/article/details/71168875)
-#### 219 Contains Duplicate II
-*  [Github: 485. Max Consecutive Ones](/Array/Array.Lib/MaxConsecutiveOnesSln.cs)
-*  [CSDN: 485. Max Consecutive Ones](http://blog.csdn.net/daigualu/article/details/71216338)
-#### 566 Reshape the Matrix
-*  [Github:#566 Reshape the Matrix](/Array/Array.Lib/ReshapeMatrixSln.cs)
-*  [CSDN: #566 Reshape the Matrix](https://leetcode.com/problems/reshape-the-matrix/#/description)
-#### 561 Array Partition I
-*  [Github: #561 Array Partition I](/Array/Array.Lib/ArrayPartitionISln.cs)
-*  [CSDN: #561 Array Partition I](http://blog.csdn.net/daigualu/article/details/71273279)
+---
 
 ## Hash Table
-* [#136 	Single number](/HashTable/HashTable.Lib/SingleOneSln.cs)
-
-* [#1 Two Sum](/HashTable/HashTable.Lib/TwoSumSln.cs)
-
-
-* [#447 Number of Boomerangs](/HashTable/HashTable.Lib/Boomerangs.cs)
-
-* [#463. Island Perimeter](/HashTable/HashTable.Lib/IslandPerimeter.cs)
-
-* [#409	Longest Palindrome](/HashTable/HashTable.Lib/LongestPalindrome.cs)
-
-####  242 Valid Anagram
-*  [Github:#242 Valid Anagram](/Array/Array.Lib/ValidAnagramSln.cs)
-*  [CSDN: #242 Valid Anagram](http://blog.csdn.net/daigualu/article/details/71358552)
-#### 561 Array Partition I
-*  [Github: #205 Isomorphic Strings](/Array/Array.Lib/IsomorphicStringsSln.cs)
-*  [CSDN: #205 Isomorphic Strings](http://blog.csdn.net/daigualu/article/details/71357419)
-####  438 Find All Anagrams in a String
-*  [Github:#438 Find All Anagrams in a String](/HashTable/HashTable.Lib/FindAllAnagramsSln.cs)
-*  [CSDN:#438 Find All Anagrams in a String](http://blog.csdn.net/daigualu/article/details/71339879)
-#### 204 Count Primes
-*  [Github:#204 Count Primes](/HashTable/HashTable.Lib/PrimesCountSln.cs)
-*  [CSDN:#204 Count Primes](http://blog.csdn.net/daigualu/article/details/71366483)
-#### 500 Keyboard Row
-*  [Github:#500 Keyboard Row](/HashTable/HashTable.Lib/KeyBoradRowSln.cs)
-*  [CSDN:#500 Keyboard Row](http://blog.csdn.net/daigualu/article/details/71447614)
-#### 389 Find the Difference
-*  [Github:#389 Find the Difference](/HashTable/HashTable.Lib/FindDifferenceSln.cs)
-*  [CSDN:#389 Find the Difference](http://blog.csdn.net/daigualu/article/details/71450823)
-#### 380 Insert Delete GetRandom O(1)
-*  [Github:#380 Insert Delete GetRandom O(1)](/HashTable/HashTable.Lib/RandomizedSet.cs)
-*  [CSDN:#380 Insert Delete GetRandom O(1)](http://blog.csdn.net/daigualu/article/details/71550547)
-#### 451 Sort Characters By Frequency
-*  [Github:#451 Sort Characters By Frequency](/HashTable/HashTable.Lib/FrequSortSln.cs)
-*  [CSDN:#451 Sort Characters By Frequency](http://blog.csdn.net/daigualu/article/details/71566159)
-   * this problem solving is not by sorting order by frequency of chars! please read it.
-#### 575 Distribute Candies
-*  [Github:#575 Distribute Candies](/HashTable/HashTable.Lib/DistributeCandiessln.cs)
-*  [CSDN:#575 Distribute Candies](http://blog.csdn.net/daigualu/article/details/71625170)
-####  381 Insert Delete GetRandom O(1) - Duplicates allowed
-*  [Github:# 381 Insert Delete GetRandom O(1) - Duplicates allowed](/HashTable/HashTable.Lib/RandomizedCollection.cs)
-*  [CSDN:#381 Insert Delete GetRandom O(1) - Duplicates allowed](http://blog.csdn.net/daigualu/article/details/71618673)
+|Number| Title(Blog URL)|
+|------|-------|
+136	|[Single number](http://blog.csdn.net/daigualu/article/details/68921131)
+1| [Two Sum](http://blog.csdn.net/daigualu/article/details/68957096)
+447	|[Number of Boomerangs](http://blog.csdn.net/daigualu/article/details/68958818)
+463	|[Island Perimeter](http://blog.csdn.net/daigualu/article/details/68959304) 
+409	|[Longest Palindrome](http://blog.csdn.net/daigualu/article/details/69053267)
+438	|[Find All Anagrams in a String](http://blog.csdn.net/daigualu/article/details/71339879)
+389	|[Find the Difference](http://blog.csdn.net/daigualu/article/details/71450823)
+350	|[Intersection of Two Arrays II](http://blog.csdn.net/daigualu/article/details/69666351)
+349	|	[Intersection of Two Arrays](http://blog.csdn.net/daigualu/article/details/69666198)
+500	|[Keyboard Row](http://blog.csdn.net/daigualu/article/details/71447614)
+217|	[Contains Duplicate](http://blog.csdn.net/daigualu/article/details/71123673)
+204	|	[Count Primes](http://blog.csdn.net/daigualu/article/details/71366483)
+202	|	[Happy Number](http://blog.csdn.net/daigualu/article/details/71433906)
+219	|[Contains Duplicate II](http://blog.csdn.net/daigualu/article/details/71166985)
+242	|[Valid Anagram](http://blog.csdn.net/daigualu/article/details/71358552)
+290	|[Word Pattern](http://blog.csdn.net/daigualu/article/details/71358552)
+205	|[Isomorphic Strings](http://blog.csdn.net/daigualu/article/details/71357419)
 
 ## Linked List
-* [#141 Linked List Cycle](http://blog.csdn.net/daigualu/article/details/69055927)
+|Number| Title(Blog URL)|
+|------|-------|
+141	|	[Linked List Cycle](http://blog.csdn.net/daigualu/article/details/69055927)
+237	|		[Delete Node in a Linked List](http://blog.csdn.net/daigualu/article/details/69055991)
+83	|		[Remove Duplicates from Sorted List](http://blog.csdn.net/daigualu/article/details/69093677)
+160	|	[Intersection of Two Linked Lists](http://blog.csdn.net/daigualu/article/details/69526717)
+203	|[Remove Linked List Elements](http://blog.csdn.net/daigualu/article/details/69389243)
+206	|	[Reverse Linked List](http://blog.csdn.net/daigualu/article/details/69372119)
+234	|	[Palindrome Linked List](http://blog.csdn.net/daigualu/article/details/69388513)
+21	|		[Merge Two Sorted Lists](http://blog.csdn.net/daigualu/article/details/69565969)
 
-* [#237 Delete Node in a Linked List](http://blog.csdn.net/daigualu/article/details/69055991)
-
-* [#83	Remove Duplicates from Sorted List](http://blog.csdn.net/daigualu/article/details/69093677)
-
-* [#160 Intersection of Two Linked Lists](http://blog.csdn.net/daigualu/article/details/69526717)
-
-* [#203	Remove Linked List Elements](http://blog.csdn.net/daigualu/article/details/69389243)
-
-* [#206	Reverse Linked List](http://blog.csdn.net/daigualu/article/details/69372119)
-
-* [#234	Palindrome Linked List](http://blog.csdn.net/daigualu/article/details/69388513)
-
-* [#21	Merge Two Sorted Lists](http://blog.csdn.net/daigualu/article/details/69565969)
+---
 
 ## Math    
-* [#231 Power of Two](http://blog.csdn.net/daigualu/article/details/69102931)
+|Number| Title(Blog URL)|
+|------|-------|
+231	|	[Power of Two](http://blog.csdn.net/daigualu/article/details/69102931)
+268|	[Missing Number](http://blog.csdn.net/daigualu/article/details/69220202)
+507	|	[Perfect Number](http://blog.csdn.net/daigualu/article/details/69233798)
+9|		[Palindrome Number](http://blog.csdn.net/daigualu/article/details/72717009)
+453	|	[Minimum Moves to Equal Array Elements](http://blog.csdn.net/daigualu/article/details/72354061)
+13	|Roman to Integer
+441	|[Arranging Coins]()
+415|	[Add Strings](http://blog.csdn.net/daigualu/article/details/72356377)
+400	|[Nth Digit](http://blog.csdn.net/daigualu/article/details/72572244)
+367	|Valid Perfect Square
+66|	[Plus One](http://blog.csdn.net/daigualu/article/details/71056697)
+7|	[Reverse Integer](http://blog.csdn.net/daigualu/article/details/72464418)	
+204	|[Count Primes](http://blog.csdn.net/daigualu/article/details/71366483)
+202	|[Happy Number](http://blog.csdn.net/daigualu/article/details/71433906)
+172	|Factorial Trailing Zeroes	
+171	|[Excel Sheet Column Number](http://blog.csdn.net/daigualu/article/details/72717145)	
+168	|[Excel Sheet Column Title](http://blog.csdn.net/daigualu/article/details/72638706)	
+258	|Add Digits	
+263	|Ugly Number	
+69|	[Sqrt(x)](http://blog.csdn.net/daigualu/article/details/72578272)	
+67	|[Add Binary](http://blog.csdn.net/daigualu/article/details/72638937)	
+246	|Strobogrammatic Number 	
+326	|Power of Three	
 
-* [#268 Missing Number](http://blog.csdn.net/daigualu/article/details/69220202)
-
-* [#507	Perfect Number](http://blog.csdn.net/daigualu/article/details/69233798)
-
-####  7 Reverse Integer
-*  [Github:#7 Reverse Integer](/Math/Math.Lib/ReverseIntegarSln.cs)
-*  [CSDN:#7 Reverse Integer](http://blog.csdn.net/daigualu/article/details/72464418)
-*  Tips:
-   * an interesting way to check if happens overflow.
-  
-#### 202 Happy Number
- *  [Github:#202 Happy Number](/Math/Math.Lib/HappyNumber.cs)
-*   [CSDN:#202 Happy Number](http://blog.csdn.net/daigualu/article/details/71433906)
-   * Floyd's Tortoise and Hare
-   * reference:https://en.wikipedia.org/wiki/Cycle_detection
- ####  453 Minimum Moves to Equal Array Elements
-*  [Github:#453 Minimum Moves to Equal Array Elements](/Math/Math.Lib/MinimumMovesSln.cs)
-*  [CSDN:#453 Minimum Moves to Equal Array Elements](http://blog.csdn.net/daigualu/article/details/72354061)
-*  Tips:
-   * using Math equation to solve this issue!
-####  415 Add Strings
-*  [Github:#415 Add Strings](/Math/Math.Lib/AddStringsSln.cs)
-*  [CSDN:#415 Add Strings](http://blog.csdn.net/daigualu/article/details/72356377)
-*  Tips:
-   * this is an interesting question!
-####  400 Nth Digit
-*  [Github:#400 Nth Digit](/Math/Math.Lib/Nthdigit.cs)
-*  [CSDN:#400 Nth Digit](http://blog.csdn.net/daigualu/article/details/72572244)
-   * Tips:
-     * careful to prevent overflowing for bas*digits, so declaring bas is long.
-
-#### 69 Sqrt(x)
-*  [Github:#69 Sqrt(x)](/Math/Math.Lib/Sqrtx.cs)
-*  [CSDN:#69 Sqrt(x)](http://blog.csdn.net/daigualu/article/details/72578272)
-   * Tips:
-     * careful to prevent overflowing! Again careful to **overflow**!
-### 9 Palindrome Number
-*  [Github:#9 Palindrome Number](/Math/Math.Lib/IssPalindromeSln.cs)
-*  [CSDN:#9 Palindrome Number](http://blog.csdn.net/daigualu/article/details/72717009)
-### 171 Excel Sheet Column Number
-*  [Github:#171 Excel Sheet Column Number](/Math/Math.Lib/ExcelColumnNumberSln.cs)
-*  [CSDN:#171 Excel Sheet Column Number](http://blog.csdn.net/daigualu/article/details/72717145)
-### 258 Add Digits
-*  [Github:#258 Add Digits](/Math/Math.Lib/AddDigitsSln.cs)
-*  [CSDN:#258 Add Digits](http://blog.csdn.net/daigualu/article/details/72724479)
-   * Tips:
-     * https://en.wikipedia.org/wiki/Digital_root#Congruence_formula 
-     * https://en.wikipedia.org/wiki/Vedic_square
-   * In Indian mathematics, a Vedic square is a variation on a typical 9 × 9 multiplication table where the entry in each cell is the digital root of the product of the column and row headings i.e. the remainder when the product of the row and column headings is divided by 9 (with remainder 0 represented by 9). Numerous geometric patterns and symmetries can be observed in a Vedic square some of which can be found in traditional Islamic art.   
-    ![VedicSquare](/Math/Math.Lib/VedicSquare.png)
-### 263 Ugly Number
-*  [Github:#263 Ugly Number](/Math/Math.Lib/UglyNumberSln.cs)
-*  [CSDN:#263 Ugly Number](http://blog.csdn.net/daigualu/article/details/72765438)
-### 326 Power of Three
-*  [Github:#326 Power of Three](/Math/Math.Lib/PowerOfThreeSln.cs)
-*  [CSDN:#326 Power of Three](http://blog.csdn.net/daigualu/article/details/72780560)
+---
 
 ## Two Pointers
-* [#345	Reverse Vowels of a String](http://blog.csdn.net/daigualu/article/details/69257693)
-	
-* [#283 Move Zeroes](http://blog.csdn.net/daigualu/article/details/69329038)
-	
-* [#88	Merge Sorted Array](http://blog.csdn.net/daigualu/article/details/69367334)	
+|Number| Title(Blog URL)|
+|------|-------|
+345	|[Reverse Vowels of a String](http://blog.csdn.net/daigualu/article/details/69257693)
+125	|[Valid Palindrome](http://blog.csdn.net/daigualu/article/details/69265381)
+283|	[Move Zeroes](http://blog.csdn.net/daigualu/article/details/69329038)	
+88	|[Merge Sorted Array](http://blog.csdn.net/daigualu/article/details/69367334)	
+234|	[Palindrome Linked List](http://blog.csdn.net/daigualu/article/details/69388513)	
+349	|Intersection of Two Arrays	
+167	|[Two Sum II - Input array is sorted](http://blog.csdn.net/daigualu/article/details/69787679)
+350|	Intersection of Two Arrays II	
+344|	Reverse String	
+28|	Implement strStr()	
+27	|Remove Element	
+26|	Remove Duplicates from Sorted Array	
+141|	Linked List Cycle	
+532|	K-diff Pairs in an Array
 
-[#234Palindrome Linked List](http://blog.csdn.net/daigualu/article/details/69388513)
+---
 
 ## String      
-* [#58 Length of Last Word](http://blog.csdn.net/daigualu/article/details/69568460)
+|Number| Title(Blog URL)|
+|------|-------|
+58|	[Length of Last Word](http://blog.csdn.net/daigualu/article/details/69568460)|	31.5%|	Easy
+20	|[Valid Parentheses](http://blog.csdn.net/daigualu/article/details/69569622)	|32.8%	|Easy
+520	|[Detect Capital](http://blog.csdn.net/daigualu/article/details/69663210)|	52.5%|	Easy
+459	|[Repeated Substring Pattern](http://blog.csdn.net/daigualu/article/details/69663545)|	38.4%|	Easy
+434	|[Number of Segments in a String](http://blog.csdn.net/daigualu/article/details/69664369)	|37.0%	|Easy
+408	|Valid Word Abbreviation |	27.5%	|Easy
+13	|Roman to Integer	|44.6%|	Easy
+14	|[Longest Common Prefix](http://blog.csdn.net/daigualu/article/details/69665015)	|31.0%	|Easy
+383	|[Ransom Note](http://blog.csdn.net/daigualu/article/details/69665190)	|46.5%	|Easy
+521	|Longest Uncommon Subsequence I	|46.1%	|Easy
+345	|Reverse Vowels of a String|	37.9%	|Easy
+28	|Implement strStr()	|27.5%	|Easy
+344	|Reverse String|	58.2%|	Easy
+293	|Flip Game 	|54.8%	|Easy
+38	|Count and Say	|33.4%	|Easy
+157	|Read N Characters Given Read4 |	29.2%|	Easy
+541	|Reverse String II	|44.1%	|Easy
+125	|Valid Palindrome	|25.8%	|Easy
+67	|Add Binary	|31.3%	|Easy	
 
-* [#20	 Valid Parentheses](http://blog.csdn.net/daigualu/article/details/69569622)	
+---
 
-* [#520 Detect Capital](http://blog.csdn.net/daigualu/article/details/69663210)
+## Stack
+|Number| Title(Blog URL)| Pass Rate| Degree |
+|------|-------|--------|----------|--------|
+225|[Implement Stack using Queues](http://blog.csdn.net/daigualu/article/details/70183272)|	32.0%|	Easy
+496|	[Next Greater Element I](http://blog.csdn.net/daigualu/article/details/70185529)	|57.5%	|Easy
+155|	[Min Stack](http://blog.csdn.net/daigualu/article/details/70185814)|	27.4%|	Easy
+232|	[Implement Queue using Stacks](http://blog.csdn.net/daigualu/article/details/70186010)|	35.8%|	Easy
+20|	[Valid Parentheses](http://blog.csdn.net/daigualu/article/details/69569622)|	32.9%|	Easy
 
-* [#459	Repeated Substring Pattern](http://blog.csdn.net/daigualu/article/details/69663545)
-
-* [#434	Number of Segments in a String](http://blog.csdn.net/daigualu/article/details/69664369)
-
-* [#14	Longest Common Prefix](http://blog.csdn.net/daigualu/article/details/69665015)	
-
-* [#383	Ransom Note](http://blog.csdn.net/daigualu/article/details/69665190)	
+---
 
 ## Binary Search
-* [#367 Valid Perfect Square](http://blog.csdn.net/daigualu/article/details/69787644)
+|Number| Title(Blog URL)| Pass Rate| Degree |
+|------|-------|--------|----------|--------|
+367	|[Valid Perfect Square](http://blog.csdn.net/daigualu/article/details/69787644)|	37.8%|	Easy
+270|	Closest Binary Search Tree Value| 	38.8%|	Easy
+167	|[Two Sum II - Input array is sorted](http://blog.csdn.net/daigualu/article/details/69787679)	|47.4%|	Easy
+441	|[Arranging Coins](http://blog.csdn.net/daigualu/article/details/69788500)|	36.0%|	Easy
+35|	[Search Insert Position](http://blog.csdn.net/daigualu/article/details/66995617)|	39.3%|	Easy
+374	|Guess Number Higher or Lower	|34.4%|	Easy
+69	|Sqrt(x)	|27.4%|	Easy|
+278|	[First Bad Version](http://blog.csdn.net/daigualu/article/details/69802371)	|24.8%	|Easy
+475|	Heaters	|29.7%|	Easy
+350	|[Intersection of Two Arrays II](http://blog.csdn.net/daigualu/article/details/69666351)	|44.1%|	Easy
+349|	[Intersection of Two Arrays](http://blog.csdn.net/daigualu/article/details/69666198)|	46.5%|	Easy
 
-* [#167 Two Sum II - Input array is sorted](http://blog.csdn.net/daigualu/article/details/69787679)
+---
 
-* [#441 Arranging Coins](http://blog.csdn.net/daigualu/article/details/69788500)
+## Dynamic Programming
+|Number| Title(Blog URL)| Pass Rate| Degree |
+|------|-------|--------|----------|--------|
+53|	[Maximum Subarray](http://blog.csdn.net/daigualu/article/details/69936974)|	39.2%|	Easy|
+169|	[Majority Element](http://blog.csdn.net/daigualu/article/details/69937729)|	45.6%|	Easy|
+	303|	[Range Sum Query - Immutable](http://blog.csdn.net/daigualu/article/details/69938986)|	27.8%|	Easy|
+276	|Paint Fence |	34.1%|	Easy|
+523	|[Continuous Subarray Sum](http://blog.csdn.net/daigualu/article/details/69941770)|	21.6%|	Easy|
+256|	Paint House |	45.9%|	Easy|
+198|	[House Robber](http://blog.csdn.net/daigualu/article/details/69946684)|	38.1%|	Easy|
+121|	Best Time to Buy and Sell Stock|40.1%	|Easy|
+70|	Climbing Stairs	|39.2%|	Easy|
 
-* [#278 First Bad Version](http://blog.csdn.net/daigualu/article/details/69802371)
+---
 
-* [#349 Intersection of Two Arrays 350. Intersection of Two Arrays II](http://blog.csdn.net/daigualu/article/details/69666351)
-
-* [#349 Intersection of Two Arrays](http://blog.csdn.net/daigualu/article/details/69666198)
 ## Tree
-* [CSDN: #107	Binary Tree Level Order Traversal II](http://blog.csdn.net/daigualu/article/details/70254459)
-
-* [CSDN: #257	Binary Tree Paths](http://blog.csdn.net/daigualu/article/details/70340125)
-* [CSDN: #501 Find Mode in Binary Search Tree](http://blog.csdn.net/daigualu/article/details/70341143)
-* [CSDN: #437	Path Sum III](http://blog.csdn.net/daigualu/article/details/70342773)
-* [CSDN: #404 Sum of Left Leaves](http://blog.csdn.net/daigualu/article/details/70482270)
-* [CSDN: #112 Path Sum](http://blog.csdn.net/daigualu/article/details/70482285)
-* [CSDN: #110. Balanced Binary Tree](http://blog.csdn.net/daigualu/article/details/70482667)
-* [CSDN: #108 Convert Sorted Array to Binary Search Tree](http://blog.csdn.net/daigualu/article/details/70485834)
-* [CSDN: #543 Diameter of Binary Tree](http://blog.csdn.net/daigualu/article/details/70491447)
-* [CSDN: #226 Invert Binary Tree](http://blog.csdn.net/daigualu/article/details/70536685)
-* [CSDN: #235 Lowest Common Ancestor of a Binary Search Tree](http://blog.csdn.net/daigualu/article/details/70539096)
-* [CSDN: #104 Maximum Depth of Binary Tree](http://blog.csdn.net/daigualu/article/details/70541420)
-* [CSDN: #111 Minimum Depth of Binary Tree](http://blog.csdn.net/daigualu/article/details/70543969)
-* [CSDN: #101 Symmetric Tree](http://blog.csdn.net/daigualu/article/details/70544774)
-* [CSDN: #100 Same Tree](http://blog.csdn.net/daigualu/article/details/70254478)
-#### 144 Binary Tree Preorder Traversal Stack version
-*  [Github:#144 Binary Tree Preorder Traversal Stack version](/Tree/Tree.TreeLib/PreOrderStack.cs)
-*  [CSDN:#144 Binary Tree Preorder Traversal Stack version](http://blog.csdn.net/daigualu/article/details/71749303)
-####  94 Binary Tree Inorder Traversal Stack version
-*  [Github:#94 Binary Tree Inorder Traversal Stack version](/Tree/Tree.TreeLib/InorderStack.cs)
-*  [CSDN:#94 Binary Tree Inorder Traversal Stack version](http://blog.csdn.net/daigualu/article/details/71747542)
-#### 572 Subtree of Another Tree
-*  [Github:#572 Subtree of Another Tree](/Tree/Tree.TreeLib/IsSameTreeSln.cs)
-*  [CSDN:#572 Subtree of Another Tree](http://blog.csdn.net/daigualu/article/details/71908238)
-   * Subtree of Another Tree: it's extended from problem of "is same tree".
-####  103 Binary Tree Zigzag Level Order Traversal
-*  [Github:#103 Binary Tree Zigzag Level Order Traversal](/Tree/Tree.TreeLib/ZigzagLevelOrder.cs)
-*  [CSDN:#103 Binary Tree Zigzag Level Order Traversal](http://blog.csdn.net/daigualu/article/details/72039636)
- ####  95 Unique Binary Search Trees II
-*  [Github:#95 Unique Binary Search Trees II](/Tree/Tree.TreeLib/UniqueBSTSln.cs)
-*  [CSDN:#95 Unique Binary Search Trees II](http://blog.csdn.net/daigualu/article/details/72051612)
-   * this is the famous "Catalan number", please reference https://en.wikipedia.org/wiki/Catalan_number
-     * apply 1: valid stack oepration: ((ab)c)d     (a(bc))d     (ab)(cd)     a((bc)d)     a(b(cd))
-	 * apply 2: ![binary trees](/Tree/Tree.TreeLib/binarytrees.jpg)
-	 * apply 3: ![triangles](/Tree/Tree.TreeLib/triangles.jpg)
-	 * apply 4: ![stairs](/Tree/Tree.TreeLib/stairs.jpg)
-####  105 Construct Binary Tree from Preorder and Inorder Traversal
-*  [Github:#105 Construct Binary Tree from Preorder and Inorder Traversal](/Tree/Tree.TreeLib/BuildTreeByPreAndInorder.cs)
-*  [CSDN:#105 Construct Binary Tree from Preorder and Inorder Traversal](http://blog.csdn.net/daigualu/article/details/72127022)
-*  Tips:
-   * the most important function in solving this issue is 
-       *  private TreeNode bulidTree(int preStart, int inStart, int inEnd) ;
-   * Plus, preStart index in preorder is the root index, which is also the separate point in inorder and it’s left is left subtree and right is right subtree.
+|Number| Title(Blog URL)| Pass Rate| Degree |
+|------|-------|--------|----------|--------|
+107|	[Binary Tree Level Order Traversal II](http://blog.csdn.net/daigualu/article/details/70254459)|	39.0%|	Easy
+257	|[Binary Tree Paths](http://blog.csdn.net/daigualu/article/details/70340125)|	36.8%|	Easy
+501	|[Find Mode in Binary Search Tree](http://blog.csdn.net/daigualu/article/details/70341143)|	38.4%|	Easy
+437	|[Path Sum III](http://blog.csdn.net/daigualu/article/details/70342773)|	39.3%	|Easy
+404	|[Sum of Left Leaves](http://blog.csdn.net/daigualu/article/details/70482270)|	46.5%|	Easy
+112	|[Path Sum](http://blog.csdn.net/daigualu/article/details/70482285)|	33.5%	|Easy
+110	|[Balanced Binary Tree](http://blog.csdn.net/daigualu/article/details/70482667)|	36.8%	|Easy
+108	|[Convert Sorted Array to Binary Search Tree](http://blog.csdn.net/daigualu/article/details/70485834)|	41.3%|	Easy
+543	|[Diameter of Binary Tree](http://blog.csdn.net/daigualu/article/details/70491447)|	42.3%|	Easy
+226	|[Invert Binary Tree](http://blog.csdn.net/daigualu/article/details/70536685)|	50.8%|	Easy
+235	|[Lowest Common Ancestor of a Binary Search Tree](http://blog.csdn.net/daigualu/article/details/70539096)|	38.5%|	Easy
+104	|[Maximum Depth of Binary Tree](http://blog.csdn.net/daigualu/article/details/70541420)|	51.7%|	Easy
+111|	[Minimum Depth of Binary Tree](http://blog.csdn.net/daigualu/article/details/70543969)|	32.7%	|Easy
+101	|[Symmetric Tree](http://blog.csdn.net/daigualu/article/details/70544774)|	37.9%|	Easy
+100|	[Same Tree](http://blog.csdn.net/daigualu/article/details/70254478)|	45.8%|	Easy
