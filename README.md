@@ -126,8 +126,8 @@ Tags are following:
 
 ## Details
 ## Array
-|Number| Title | Blog |
-|------|-------|------|
+|Number| Title(Blog URL)| 
+|------|-------|
 35	|[Search Insert Position](http://blog.csdn.net/daigualu/article/details/66995617)
 118|	[Pascal's Triangle](http://blog.csdn.net/daigualu/article/details/67006388)
 119	|[Pascal's Triangle II](http://blog.csdn.net/daigualu/article/details/67069088)
