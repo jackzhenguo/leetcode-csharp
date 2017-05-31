@@ -7,15 +7,6 @@ Anyway, welcome to view, star and fork, then contribute.
 
 ---
 
-## Contributing
-1. Fork it!
-2. Create your feature branch: git checkout -b my-leetcode-csharp
-3. Commit your changes: git commit -am 'Add some questions and better solutions'
-4. Push to the branch: git push origin my-leetcode-csharp
-5. Submit a pull request and enjoy! :D
-
----
-
 ## Today Update
 [Leetcode Today Update](/TodayUpdate.md)
 
@@ -35,3 +26,14 @@ Tags are following:
 
 ## Details
 [Leetcode Solution Details](/Details.md)
+
+---
+
+## Contributing
+1. Fork it!
+2. Create your feature branch: git checkout -b my-leetcode-csharp
+3. Commit your changes: git commit -am 'Add some questions and better solutions'
+4. Push to the branch: git push origin my-leetcode-csharp
+5. Submit a pull request and enjoy! :D
+
+---
