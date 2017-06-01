@@ -20,6 +20,8 @@ solutions using C# for leetcode according to tags of questions
 * [Solution String Details](DetailsMd/DetailsString.md)
 * [Solution Tree Details](DetailsMd/DetailsTree.md)
 * [Solution TwoPointers Details](DetailsMd/DetailsTwoPointers.md)
+* [Solution BitManipulation](DetailsMd/DetailsBitManipulation.md)
+* [Solution Sort](DetailsMd/DetailsSort.md)
 
 ## Contributing
 1. Fork it!
