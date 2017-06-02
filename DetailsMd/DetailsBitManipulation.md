@@ -1,4 +1,4 @@
-## Two Pointers
+## Bit Manipulation
 |Number| Title(Blog URL)|
 |------|-------|
 342	|[Power of Four](http://blog.csdn.net/daigualu/article/details/72821233)
