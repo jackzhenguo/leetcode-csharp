@@ -9,8 +9,8 @@ namespace BitManipulation
     {
         static void Main(string[] args)
         {
-            HammingDistanceSln sln = new HammingDistanceSln();
-            int d = sln.HammingDistance(1, 8);
+            NumberComplementSln sln = new NumberComplementSln();
+            int n = sln.FindComplement(6);
         }
     }
 }

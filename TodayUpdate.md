@@ -3,23 +3,16 @@
 https://github.com/jackzhenguo/LeetCodeManager
 
 ## Bit Mainpulation
-### 461 Hamming Distance
-*  [CSDN:#461 Hamming Distance](http://blog.csdn.net/daigualu/article/details/72830624)
-   > x&(x-1) application; xor application</br>
+*  [CSDN:#476 Number Complement](http://blog.csdn.net/daigualu/article/details/72843822)
+   > get bits for a number</br>
    ```C#
-       public int HammingDistance(int x, int y)
+        public int FindComplement(int num)
         {
-            ///a and y are different bits, so we think the XOR
-            ///think:0001(1D)
-            ///     0100(4D)
-            ///xor = 0101(1D^4D)
-            int dist = 0, xor = x ^ y;
-            while (xor > 0)
-            {
-                ///xor & (xor-1): it sets the rightest 1 bit    to   0 bit of xor.  
-                ++dist;
-                xor = xor & (xor - 1);
-            }
-            return dist;
+            int bits = 1; //num including bits
+            while (Math.Pow(2, bits) <= num)
+                bits++;
+            int sum = (int) Math.Pow(2, bits) - 1;//sum =Pow(2,n)-1: sum of n bits 1
+            return  sum - num; //sum - num is the complement
+
         }
    ```C#

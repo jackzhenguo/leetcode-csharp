@@ -44,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="HammingDistanceSln.cs" />
+    <Compile Include="NumberComplementSln.cs" />
     <Compile Include="PowOfFourSln.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
