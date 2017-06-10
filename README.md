@@ -152,4 +152,4 @@ Obviously, the management to these questions requires a small tool. I design a t
 To run this software, please install.NET FrameWork4.0 and above, and the details of the use of the software please refer to:
  https://github.com/jackzhenguo/LeetCodeManager
 ## Tool Picture
-[Main GUI](./tool.png)
+![Main GUI](./tool.png)
