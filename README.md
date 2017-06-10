@@ -8,24 +8,6 @@ I create this respository called **leetcode-csharp** because I apply C# language
 
 Anyway, welcome to view, star and fork, then contribute.
 
-## Today Update
-[Leetcode Today Update](/TodayUpdate.md)
-
-## Solution List
-solutions using C# for leetcode according to tags of questions
-* [Solution Array Details](DetailsMd/DetailsArray.md)
-* [Solution BinarySearch Details](DetailsMd/DetailsBinarySearch.md)
-* [Solution DynamicProgramming Details](DetailsMd/DetailsDynamicProgramming.md)
-* [Solution HashTable Details](DetailsMd/DetailsHashTable.md)
-* [Solution LinkedList Details](DetailsMd/DetailsLinkedList.md)
-* [Solution Math Details](DetailsMd/DetailsMath.md)
-* [Solution Stack Details](DetailsMd/DetailsStack.md)
-* [Solution String Details](DetailsMd/DetailsString.md)
-* [Solution Tree Details](DetailsMd/DetailsTree.md)
-* [Solution TwoPointers Details](DetailsMd/DetailsTwoPointers.md)
-* [Solution BitManipulation](DetailsMd/DetailsBitManipulation.md)
-* [Solution Sort](DetailsMd/DetailsSort.md)
-
 ## Contributing
 1. Fork it!
 2. Create your feature branch: git checkout -b my-leetcode-csharp
@@ -165,10 +147,3 @@ Ugly Number](http://blog.csdn.net/daigualu/article/details/72765438)|
 |566|Array;|[Reshape the Matrix](http://blog.csdn.net/daigualu/article/details/71275325)|
 |572|Tree;|[Subtree of Another Tree](http://blog.csdn.net/daigualu/article/details/71908238)|
 |575|HashTable;|[Distribute Candies](http://blog.csdn.net/daigualu/article/details/71625170)|
-
-
-
-
-
-
-
