@@ -34,6 +34,8 @@ solutions using C# for leetcode according to tags of questions
 5. Submit a pull request and enjoy! :D
 
 ## Array Tag:
+|ID| Blog address|
+|---|-----------|
 35	|[Search Insert Position](http://blog.csdn.net/daigualu/article/details/66995617)
 118|	[Pascal's Triangle](http://blog.csdn.net/daigualu/article/details/67006388)
 119	|[Pascal's Triangle II](http://blog.csdn.net/daigualu/article/details/67069088)
@@ -60,6 +62,8 @@ solutions using C# for leetcode according to tags of questions
 561| [Array Partition I](http://blog.csdn.net/daigualu/article/details/71273279)
 
 ## Binary Search:	
+|ID| Blog address|PassRate|Level|
+|---|-----------|------|-----|
 367	|[Valid Perfect Square](http://blog.csdn.net/daigualu/article/details/69787644)|	37.8%|	Easy
 270|	Closest Binary Search Tree Value| 	38.8%|	Easy
 167	|[Two Sum II - Input array is sorted](http://blog.csdn.net/daigualu/article/details/69787679)	|47.4%|	Easy
@@ -73,6 +77,8 @@ solutions using C# for leetcode according to tags of questions
 349|	[Intersection of Two Arrays](http://blog.csdn.net/daigualu/article/details/69666198)|	46.5%|	Easy
 
 ## Dynamic Programming
+|ID| Blog address|PassRate|Level|
+|---|-----------|------|-----|
 53|	[Maximum Subarray](http://blog.csdn.net/daigualu/article/details/69936974)|	39.2%|	Easy|
 169|	[Majority Element](http://blog.csdn.net/daigualu/article/details/69937729)|	45.6%|	Easy|
 	303|	[Range Sum Query - Immutable](http://blog.csdn.net/daigualu/article/details/69938986)|	27.8%|	Easy|
@@ -85,6 +91,8 @@ solutions using C# for leetcode according to tags of questions
 
 
 ## HashTable:
+|ID| Blog address|
+|---|-----------|
 136	|[Single number](http://blog.csdn.net/daigualu/article/details/68921131)
 1| [Two Sum](http://blog.csdn.net/daigualu/article/details/68957096)
 447	|[Number of Boomerangs](http://blog.csdn.net/daigualu/article/details/68958818)
@@ -104,7 +112,8 @@ solutions using C# for leetcode according to tags of questions
 205	|[Isomorphic Strings](http://blog.csdn.net/daigualu/article/details/71357419)
 
 ## Linked List
-
+|ID| Blog address|
+|---|-----------|
 141	|	[Linked List Cycle](http://blog.csdn.net/daigualu/article/details/69055927)
 237	|		[Delete Node in a Linked List](http://blog.csdn.net/daigualu/article/details/69055991)
 83	|		[Remove Duplicates from Sorted List](http://blog.csdn.net/daigualu/article/details/69093677)
@@ -115,6 +124,8 @@ solutions using C# for leetcode according to tags of questions
 21	|		[Merge Two Sorted Lists](http://blog.csdn.net/daigualu/article/details/69565969)
 
 ## Math:
+|ID| Blog address|
+|---|-----------|
 231	|	[Power of Two](http://blog.csdn.net/daigualu/article/details/69102931)
 268|	[Missing Number](http://blog.csdn.net/daigualu/article/details/69220202)
 507	|	[Perfect Number](http://blog.csdn.net/daigualu/article/details/69233798)
@@ -140,6 +151,8 @@ solutions using C# for leetcode according to tags of questions
 326	|Power of Three	
 
 ## Stack:
+|ID| Blog address|PassRate|Level|
+|---|-----------|------|-----|
 225|[Implement Stack using Queues](http://blog.csdn.net/daigualu/article/details/70183272)|	32.0%|	Easy
 496|	[Next Greater Element I](http://blog.csdn.net/daigualu/article/details/70185529)	|57.5%	|Easy
 155|	[Min Stack](http://blog.csdn.net/daigualu/article/details/70185814)|	27.4%|	Easy
@@ -147,7 +160,8 @@ solutions using C# for leetcode according to tags of questions
 20|	[Valid Parentheses](http://blog.csdn.net/daigualu/article/details/69569622)|	32.9%|	Easy
 
 ## String:
-
+|ID| Blog address|PassRate|Level|
+|---|-----------|------|-----|
 58|	[Length of Last Word](http://blog.csdn.net/daigualu/article/details/69568460)|	31.5%|	Easy
 20	|[Valid Parentheses](http://blog.csdn.net/daigualu/article/details/69569622)	|32.8%	|Easy
 520	|[Detect Capital](http://blog.csdn.net/daigualu/article/details/69663210)|	52.5%|	Easy
@@ -169,6 +183,8 @@ solutions using C# for leetcode according to tags of questions
 67	|Add Binary	|31.3%	|Easy
 
 ## Tree:
+|ID| Blog address|PassRate|Level|
+|---|-----------|------|-----|
 107|	[Binary Tree Level Order Traversal II](http://blog.csdn.net/daigualu/article/details/70254459)|	39.0%|	Easy
 257	|[Binary Tree Paths](http://blog.csdn.net/daigualu/article/details/70340125)|	36.8%|	Easy
 501	|[Find Mode in Binary Search Tree](http://blog.csdn.net/daigualu/article/details/70341143)|	38.4%|	Easy
@@ -186,6 +202,8 @@ solutions using C# for leetcode according to tags of questions
 100|	[Same Tree](http://blog.csdn.net/daigualu/article/details/70254478)|	45.8%|	Easy
 
 ## Two Pointers:
+|ID| Blog address|
+|---|-----------|
 345	|[Reverse Vowels of a String](http://blog.csdn.net/daigualu/article/details/69257693)
 125	|[Valid Palindrome](http://blog.csdn.net/daigualu/article/details/69265381)
 283|	[Move Zeroes](http://blog.csdn.net/daigualu/article/details/69329038)	
