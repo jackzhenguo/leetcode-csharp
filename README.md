@@ -149,7 +149,9 @@ Anyway, welcome to view, star and fork, then contribute.
 
 ## Tips and myself management tool
 Obviously, the management to these questions requires a small tool. I design a tool based on .NET platform and it can achieve management to Tags and questions for LeetCode you have solved. They stored in the local SQL Server database, and can be easily exported to Blog and Github format. </ Br>
-To run this software, please install.NET FrameWork4.0 and above, and the details of the use of the software please refer to:
+To run this software, please install.NET FrameWork4.5 and above, and the details of the use of the software please refer to:
  https://github.com/jackzhenguo/LeetCodeManager
 ## Tool Picture
 ![Main GUI](./tool2.png)
+## Tool Setup version 1.1
+[LeetCodeTool Setup Version](./LeetCodeTool)
