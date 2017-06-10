@@ -81,7 +81,7 @@ solutions using C# for leetcode according to tags of questions
 |---|-----------|------|-----|
 53|	[Maximum Subarray](http://blog.csdn.net/daigualu/article/details/69936974)|	39.2%|	Easy|
 169|	[Majority Element](http://blog.csdn.net/daigualu/article/details/69937729)|	45.6%|	Easy|
-	303|	[Range Sum Query - Immutable](http://blog.csdn.net/daigualu/article/details/69938986)|	27.8%|	Easy|
+303|	[Range Sum Query - Immutable](http://blog.csdn.net/daigualu/article/details/69938986)	|27.8%|	Easy|
 276	|Paint Fence |	34.1%|	Easy|
 523	|[Continuous Subarray Sum](http://blog.csdn.net/daigualu/article/details/69941770)|	21.6%|	Easy|
 256|	Paint House |	45.9%|	Easy|
