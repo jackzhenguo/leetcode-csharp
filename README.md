@@ -93,8 +93,7 @@ Anyway, welcome to view, star and fork, then contribute.
 |242|HashTable;|[Valid Anagram](http://blog.csdn.net/daigualu/article/details/71358552)|
 |257|Tree;|[Binary Tree Paths](http://blog.csdn.net/daigualu/article/details/70340125)|
 |258|Math;|[Add Digits]()|
-|263|Math;|[Ugly Number
-Ugly Number](http://blog.csdn.net/daigualu/article/details/72765438)|
+|263|Math;|[Ugly Number Ugly Number](http://blog.csdn.net/daigualu/article/details/72765438)|
 |268|Array;Math;|[Missing Number](http://blog.csdn.net/daigualu/article/details/69220202)|
 |278|BinarySearch;|[First Bad Version](http://blog.csdn.net/daigualu/article/details/69802371)|
 |283|Array;TwoPointers;|[Move Zeroes](http://blog.csdn.net/daigualu/article/details/69329038)|
