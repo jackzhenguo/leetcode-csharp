@@ -34,7 +34,7 @@ Anyway, welcome to view, star and fork, then contribute.
 |28|TwoPointers;String;|[Implement strStr()]()|
 |35|Array;BinarySearch;|[Search Insert Position](http://blog.csdn.net/daigualu/article/details/66995617)|
 |38|String;|[Count and Say]()|
-|53|Array;DynamicProgramming;DynamicProgramming;|[Maximum Subarray](http://blog.csdn.net/daigualu/article/details/69936974)|
+|53|Array;DynamicProgramming;|[Maximum Subarray](http://blog.csdn.net/daigualu/article/details/69936974)|
 |56|Array;Sort;|[Merge Intervals](http://blog.csdn.net/daigualu/article/details/72912509)|
 |58|String;|[Length of Last Word](http://blog.csdn.net/daigualu/article/details/69568460)|
 |66|Array;Math;|[Plus One](http://blog.csdn.net/daigualu/article/details/71056697)|
@@ -67,7 +67,7 @@ Anyway, welcome to view, star and fork, then contribute.
 |165|String;|[Compare Version Numbers]()|
 |167|Array;TwoPointers;BinarySearch;|[Two Sum II - Input array is sorted](http://blog.csdn.net/daigualu/article/details/69787679)|
 |168|Math;|[Excel Sheet Column Title](http://blog.csdn.net/daigualu/article/details/72638706)|
-|169|Array;DynamicProgramming;DynamicProgramming;|[Majority Element](http://blog.csdn.net/daigualu/article/details/69937729)|
+|169|Array;DynamicProgramming;|[Majority Element](http://blog.csdn.net/daigualu/article/details/69937729)|
 |171|Math;|[Excel Sheet Column Number](http://blog.csdn.net/daigualu/article/details/72717145)|
 |172|Math;|[Factorial Trailing Zeroes]()|
 |189|Array;|[Rotate Array](http://blog.csdn.net/daigualu/article/details/71159419)|
