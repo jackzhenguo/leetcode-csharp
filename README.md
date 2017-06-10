@@ -1,5 +1,5 @@
-Important Notes:
-I would not write coding in Visual Studio, so you can visit solutions by two methonds. One is by my [Blog Column](http://blog.csdn.net/column/details/14761.html), and another direct way is by questions index.
+Important Notes </br>
+I would not write coding in an single file of this repository, so you can visit solutions by two methonds. One is by my [Blog Column](http://blog.csdn.net/column/details/14761.html), and another direct way is by questions index.
 
 ## About it
 Algorithm is tool for exercising our thinking patterns, and we can strengthen the ability to convert mathematical models into code. Whether you are engaged in artificial intelligence, in-depth learning, or advanced software development, no matter what language you use, such as C#,C++,Java,python,etc., and applying the most appropriate algorithm is always the most important point when faced with a specific problem. *Every problem in practice has its own particularity, which makes it not that easier to choose the most appropriate algorithm.* How do we write the algorithm that most efficiently apply to a practical issue? **Yes, LeetCode.** You can write an algorithm until it accepted, and do not rush to do the next question, and learn the solution someone else has submitted, `so you can solve the problem from the ability of solving the problem to that fast and efficient realm`. 
