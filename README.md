@@ -33,7 +33,7 @@ LeetCode 是一个非常棒的 OJ（Online Judge）平台，收集了许多公�
 
 > Given a string containing just the characters '(' and ')', find the length of the longest valid (well-formed) parentheses substring.  For "(()", the longest valid parentheses substring is "()", which has length = 2. Another example is ")()())", where the longest valid parentheses substring is "()()", which has length = 4.
 
-```
+```C#
         //栈的典型应用
         //能想到栈，但是能想到Push字符索引，真的不是很容易（这道题一般的想法是存储‘(’  ‘)’这些符号)
         public int LongestValidParentheses(string s)
@@ -70,6 +70,7 @@ LeetCode 是一个非常棒的 OJ（Online Judge）平台，收集了许多公�
             return longest;
         }
 ```
+
 |ID|Tags|Solution|
 |--|----|--------|
 |3|String;|[Longest Substring Without Repeating Characters](http://blog.csdn.net/daigualu/article/details/73105674)|
@@ -194,7 +195,7 @@ return heapq.nlargest(k, num_count, key=lambda x: num_count[x])
 
 而用 C++ 实现的话，代码会多很多，带来的好处就是速度的飞跃。具体代码在 这里 ，建立大小为 k 的小顶堆，每次进堆时和堆顶进行比较，核心代码如下：
 
-```
+```c++
 // Build the min-heap with size k.
 for(auto it = num_count.begin(); it != num_count.end(); it++){
   if(frequent_heap.size() < k){
@@ -213,7 +214,7 @@ for(auto it = num_count.begin(); it != num_count.end(); it++){
 
 如果用 C++ 的话，相信很多人也能避开求中间值的整型溢出的坑： int mid = low + (high - low) / 2; ，于是写出下面的代码：
 
-```
+```c++
 int low = 0, high = x;
 while(low <= high){
   // int mid = (low+high) / 2,  may overflow.
@@ -228,7 +229,7 @@ while(low <= high){
 
 除了臭名昭著的整型溢出问题，c++ 和 python 在位运算上也有着一点不同。以 371 Sum of Two Integers 为例，不用 +, - 实现 int 型的加法 int getSum(int a, int b) 。其实就是模拟计算机内部加法的实现，很明显是一个位运算的问题，c++实现起来比较简单，如下：
 
-```
+```c++
 int getSum(int a, int b) {
     if(b==0){
         return a;
@@ -270,7 +271,7 @@ StefanPochmann 也不厌其烦地给出了自己的答案：
 <center>
 ![这里写图片描述](http://img.blog.csdn.net/20170610204936185?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvZGFpZ3VhbHU=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
 
-<h4>已完成题目列表</h4>
+## 已完成题目列表
 |ID|Tags|Solution|
 |--|----|--------|
 |1|Array;HashTable;|[Two Sum](http://blog.csdn.net/daigualu/article/details/68957096)|
