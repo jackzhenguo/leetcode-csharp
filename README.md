@@ -92,6 +92,7 @@ LeetCode 是一个非常棒的 OJ（Online Judge）平台，收集了许多公�
 |520|String;|[Detect Capital](http://blog.csdn.net/daigualu/article/details/69663210)|
 
 **Linked List** ：链表可以快速地插入、删除，但是查找比较费时（具体操作链表时结合图会简单很多，此外要注意空节点）。通常链表的相关问题可以用双指针巧妙的解决， 160. Intersection of Two Linked Lists 可以帮我们重新审视链表的操作。</br>
+
 |ID|Tags|Solution|
 |--|----|--------|
 |2|LinkedList;Math;|[Add Two Numbers](http://blog.csdn.net/daigualu/article/details/72957905)|
@@ -106,6 +107,7 @@ LeetCode 是一个非常棒的 OJ（Online Judge）平台，收集了许多公�
 |237|LinkedList;|[Delete Node in a Linked List](http://blog.csdn.net/daigualu/article/details/69055991)|
 
 **Hash Table** ：利用 Hash 函数来将数据映射到固定的一块区域，方便 O(1) 时间内读取以及修改。 37. Sudoku Solver 数独是一个经典的回溯问题，配合 HashTable 的话，运行时间将大幅减少。</br>
+
 |ID|Tags|Solution|
 |--|----|--------|
 |1|Array;HashTable;|[Two Sum](http://blog.csdn.net/daigualu/article/details/68957096)|
@@ -131,6 +133,7 @@ LeetCode 是一个非常棒的 OJ（Online Judge）平台，收集了许多公�
 |575|HashTable;|[Distribute Candies](http://blog.csdn.net/daigualu/article/details/71625170)|
 
 **Tree** ：树在计算机学科的应用十分广泛，常用的有二叉搜索树，红黑书，B+树等。树的建立，遍历，删除相对来说比较复杂，通常会用到递归的思路， 113. Path Sum II 是一个不错的开胃菜。</br>
+
 |ID|Tags|Solution|
 |--|----|--------|
 |100|Tree;|[Same Tree](http://blog.csdn.net/daigualu/article/details/70254478)|
@@ -156,6 +159,7 @@ LeetCode 是一个非常棒的 OJ（Online Judge）平台，收集了许多公�
 |572|Tree;|[Subtree of Another Tree](http://blog.csdn.net/daigualu/article/details/71908238)|
 
 **Heap** ：特殊的完全二叉树，“等级森严”，可以用 O(nlogn) 的时间复杂度来进行排序，可以用 O(nlogk) 的时间复杂度找出 n 个数中的最大（小）k个，具体可以看看 347. Top K Frequent Elements 。</br>
+
 |ID|Tags|Solution|
 |--|----|--------|
 |215|Divide and Conquer;Heap;|[Kth Largest Element in an Array](http://blog.csdn.net/daigualu/article/details/70188460)|
@@ -272,6 +276,7 @@ StefanPochmann 也不厌其烦地给出了自己的答案：
 ![这里写图片描述](http://img.blog.csdn.net/20170610204936185?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvZGFpZ3VhbHU=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
 </br>
 ## 已完成题目列表
+
 |ID|Tags|Solution|
 |--|----|--------|
 |1|Array;HashTable;|[Two Sum](http://blog.csdn.net/daigualu/article/details/68957096)|
@@ -418,7 +423,7 @@ https://github.com/jackzhenguo/leetcode-csharp 欢迎感兴趣的朋友加入进
 http://blog.csdn.net/column/details/14761.html 欢迎关注！
 <h3>6 LeetCode已完成题目管理工具</h3>
 自己基于.NET平台，EF框架，制作的本地SQL Server小工具，专门管理LeetCode标签和题目，能输出用于CSDN博客和Github表格模板的功能。主界面视图如下：
-<center>
+
 ![这里写图片描述](http://img.blog.csdn.net/20170610211233180?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvZGFpZ3VhbHU=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
 
 此工具的软件安装包，Github下载地址如下：
