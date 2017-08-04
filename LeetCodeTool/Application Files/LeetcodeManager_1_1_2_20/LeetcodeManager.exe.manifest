@@ -1,0 +1,390 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="LeetcodeManager.exe" version="1.1.2.20" publicKeyToken="02c5b34ba76212d8" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="1.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="LeetcodeManager" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="LeetcodeManager.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC 清单选项
+          如果要更改 Windows 用户帐户控制级别，请用以下节点之一替换
+          requestedExecutionLevel 节点。
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+          如果要利用文件和注册表虚拟化提供
+          向后兼容性，请删除 requestedExecutionLevel 节点。
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="EntityFramework.dll" size="5196496">
+      <assemblyIdentity name="EntityFramework" version="6.0.0.0" publicKeyToken="B77A5C561934E089" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>7W69dJBS+QGPZplnGuVGmt7fCGz4sb1CVrvpxOf2/wU=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="EntityFramework.SqlServer.dll" size="621264">
+      <assemblyIdentity name="EntityFramework.SqlServer" version="6.0.0.0" publicKeyToken="B77A5C561934E089" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>ob9snjgg6D9D6fIN19mwozYqkxRvCv4LEzAYXi1RsMs=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Infragistics2.Shared.v12.1.dll" size="311296">
+      <assemblyIdentity name="Infragistics2.Shared.v12.1" version="12.1.20121.1001" publicKeyToken="7DD5C3163F2CD0CB" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>HsN3pAZOpvOVWVPs5GmSC1H2oLVREQ6RQa9azqMwJIw=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Infragistics2.Win.UltraWinEditors.v12.1.dll" size="503808">
+      <assemblyIdentity name="Infragistics2.Win.UltraWinEditors.v12.1" version="12.1.20121.1001" publicKeyToken="7DD5C3163F2CD0CB" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>D7yckcTnZMPxY4SjZBzY7FfmUodUyqRtynpqaEnhG+A=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Infragistics2.Win.UltraWinGrid.v12.1.dll" size="2375680">
+      <assemblyIdentity name="Infragistics2.Win.UltraWinGrid.v12.1" version="12.1.20121.1001" publicKeyToken="7DD5C3163F2CD0CB" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>3K/Uasx9c0lc920IdalAOLRkyW/Ek9VGvXS5d9FF8jo=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Infragistics2.Win.v12.1.dll" size="3911680">
+      <assemblyIdentity name="Infragistics2.Win.v12.1" version="12.1.20121.1001" publicKeyToken="7DD5C3163F2CD0CB" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>302xCRezIBnhAF6Tc7oGuOzctWsdkSbMCkWs9yaL/FM=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="LeetcodeManager.exe" size="470528">
+      <assemblyIdentity name="LeetcodeManager" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>Jc5O3Wxl9u4Q41Ba77SV2dcw0ms4n7p5tw+dRHewRHs=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="1.ico" size="4286">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>BjwSwgHwig1VSiVOe/s5sZam9eP9iX+37n8Nnilm5jA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Assembly\Infragistics2.Shared.v12.1.dll" size="311296">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>HsN3pAZOpvOVWVPs5GmSC1H2oLVREQ6RQa9azqMwJIw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Assembly\Infragistics2.Win.UltraWinEditors.v12.1.dll" size="503808">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>D7yckcTnZMPxY4SjZBzY7FfmUodUyqRtynpqaEnhG+A=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Assembly\Infragistics2.Win.UltraWinGrid.v12.1.dll" size="2375680">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>3K/Uasx9c0lc920IdalAOLRkyW/Ek9VGvXS5d9FF8jo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Assembly\Infragistics2.Win.v12.1.dll" size="3911680">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>302xCRezIBnhAF6Tc7oGuOzctWsdkSbMCkWs9yaL/FM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="DataMd\array.txt" size="2039">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>r9MkcRAohukYweQnJTdDDF+zwCXuxoZU6liUdFpYShs=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="DataMd\BinarySearch.txt" size="861">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Zyn+CjVkktCHXHhrM170CwMOSerm9KVrhAtav6LSS1w=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="DataMd\DynamicProgramming.txt" size="639">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Mlf/JA1xykPmcCyOB96pDXWbPgWr5j3m9Q5JNhK3lGs=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="DataMd\HashTable.txt" size="1400">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>HDdqbOZnSTWB5bASXfo+Lw/nPRPUjSz4qUYubhOLkVY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="DataMd\LinkedList.txt" size="727">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>P+QnS2x4LJYsZtLMNxgWNvNqf6APFdxTlDoSikQTEXU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="DataMd\Math.txt" size="1400">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>BVwBgI9KjocMOweLWQMi8JyR3+SsRwAi7qBnvYFqkGM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="DataMd\Stack.txt" size="490">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>zrGT4AqV0ExukKvP32uITDcD+BP51j+9GuvySG0OI40=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="DataMd\String.txt" size="1139">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>aHQ8cRAuIeF63BFgUQMcCEQnHPXAwiCvEbAvfT9qGP4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="DataMd\Tree.txt" size="1518">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>J9pln5e/WOoJfbol4gRVOaJl4k3V1UUl7Tie7fpmyiw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="DataMd\TwoPointers.txt" size="754">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>OeVgqfxqaEzAyxp5d0CjA/fj+32V080gOL71ozJEdY0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="LeetcodeManager.exe.config" size="886">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>FfwpyyMdr/02ckVVEPqC7SEqR7qDEwvZf6ON4XEWMX4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\1.bmp" size="349754">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>9IMitxH7ZQJZxfE/Wgan56qcHQkPo9Z6deLsjOsMUwA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\1.ico" size="4286">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>BjwSwgHwig1VSiVOe/s5sZam9eP9iX+37n8Nnilm5jA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\10.png" size="50512">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Qmq27pW9T1vSxHmHnwI2AMG/TG092fVkThMmwxzrn1w=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\11.png" size="67448">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>6nHbQkzsl6K62tohKu0FQqzVjW8gRMSTCFMwPitTIBo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\2.bmp" size="290214">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>EoaUcHo1ceH2an7F4V9lblXKKryJ6X0fp/ihmoamg9c=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\3.bmp" size="277110">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>2Uv9k06eOzJ1tcrrvbkEK20tXtWb3FcJVtpzo09obfI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\4.bmp" size="379654">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>m1yD0Wanxjb9Av5wkfg+tBg5Uw7bvAhAYwwepfqEHo0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\5.bmp" size="347382">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>agC+8Q5tEFy+ZnikrtC5kQviLwc/Q5GOjGMv5IuhRKc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\6.bmp" size="336222">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>35x2AkRAzR57vExrhNzrISRiUuL89Dkd+wp6GHtaGHU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\7.bmp" size="1532214">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>86ffZguV696jIdLzTKO6dt6+hnRh4NWDf8PQ60QprVk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\8.bmp" size="546630">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>LFOELQ7h7smG2q2toqfAPgYw9v6yRSEZzP8bK1H1/aI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\delAll.bmp" size="97334">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>fGGfsI0lVDQmbknnpyFZ0CT6HhXoEKr8CnAB+kIqyQE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\edit.bmp" size="1064118">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>se1hAXMitN5Qsin1mWLSI2wMUbGB+Rf+EbDpIP5fkFo=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=HaixiaLiu\jackz" issuerKeyHash="38ff13a7da9f29e2f3278a8bc69b6ef779c83aeb" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>Mz7Vgtp7cZey/tBzgx9qYKIzMvnwfuHKFlw5OTDQC1o=</DigestValue></Reference></SignedInfo><SignatureValue>LrQN0vm+L9YVfcARlN4X4aRVwn4KLTzB6NfLk0E8e607ebp47CL8mmgstbzvEHjrM2uiAcGj/xPG94XSNuJRKK8R3xnZVRB2/MFAYDCcUQZz3D723NH5J/4NxoAplmO3rhZJng8MPnWaPMhImsU/Ewo4pwobsqU/6jBtbt0y4sc=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>wrYka0qN3E5SMpsMaP/W8MFwulEFfPCGk6kb/wx8CvOsse/HrilZh7Pl8rN2FwmL1p0LVkTCoJMsVO0WWnKsmAKpNrkYr8hD/XsGmVrBf9x0qgICwG9qOsTbjqNddEYFvCpqy0iEtTABfUx+sRUL0KiAUYAuBKb6Dspy/zGanck=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="5a0bd03039395c16cae17ef0f93233a2606a1f8373d0feb297717bda82d53e33" Description="" Url=""><as:assemblyIdentity name="LeetcodeManager.exe" version="1.1.2.20" publicKeyToken="02c5b34ba76212d8" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=HaixiaLiu\jackz</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>ViNcFb5oVQgEnmJ+660M9vodY5KB8e85+rIVYTcWQPo=</DigestValue></Reference></SignedInfo><SignatureValue>q/bNTT27y51YQzzjBtC85/BPndrvvpG53xMFhvXh1Vw6DW0rSDIy79p4kxl75dBPJeE3w60cSBavpxrRlbLfH3nQvySxdwM2FsJOYB9NLBRo12G1xy5AfH3HyEMzJK5MMsAa8Srun8VNS+y3WAZpBuKNo22+1HSoZH6D9sWfqZc=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>wrYka0qN3E5SMpsMaP/W8MFwulEFfPCGk6kb/wx8CvOsse/HrilZh7Pl8rN2FwmL1p0LVkTCoJMsVO0WWnKsmAKpNrkYr8hD/XsGmVrBf9x0qgICwG9qOsTbjqNddEYFvCpqy0iEtTABfUx+sRUL0KiAUYAuBKb6Dspy/zGanck=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB1TCCAT6gAwIBAgIQFdfCKXPPzrpH5q41Jk7IBTANBgkqhkiG9w0BAQsFADApMScwJQYDVQQDHh4ASABhAGkAeABpAGEATABpAHUAXABqAGEAYwBrAHowHhcNMTcwNjEwMTEyMTQzWhcNMTgwNjEwMTcyMTQzWjApMScwJQYDVQQDHh4ASABhAGkAeABpAGEATABpAHUAXABqAGEAYwBrAHowgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAMK2JGtKjdxOUjKbDGj/1vDBcLpRBXzwhpOpG/8MfArzrLHvx64pWYez5fKzdhcJi9adC1ZEwqCTLFTtFlpyrJgCqTa5GK/IQ/17BplawX/cdKoCAsBvajrE246jXXRGBbwqastIhLUwAX1MfrEVC9CogFGALgSm+g7Kcv8xmp3JAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAYhg5n6x/urGrrtK96W1/5b5cRPWGyZpusRlvAu9h925QqEPN4Dr0OPVwfPI9F4qvbY0RcHdrUuI9LYJkMdatYgvWvwvI03OKt1F1iS7xBTvlLUApK572d1dMdItg640xGf3WQmblHYUwdUbm3e8sDmlkCMN31gcTGXVoBjtgGuI=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

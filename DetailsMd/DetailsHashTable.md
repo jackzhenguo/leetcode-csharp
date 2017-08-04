@@ -1,0 +1,20 @@
+## Hash Table
+|Number| Title(Blog URL)|
+|------|-------|
+136	|[Single number](http://blog.csdn.net/daigualu/article/details/68921131)
+1| [Two Sum](http://blog.csdn.net/daigualu/article/details/68957096)
+447	|[Number of Boomerangs](http://blog.csdn.net/daigualu/article/details/68958818)
+463	|[Island Perimeter](http://blog.csdn.net/daigualu/article/details/68959304) 
+409	|[Longest Palindrome](http://blog.csdn.net/daigualu/article/details/69053267)
+438	|[Find All Anagrams in a String](http://blog.csdn.net/daigualu/article/details/71339879)
+389	|[Find the Difference](http://blog.csdn.net/daigualu/article/details/71450823)
+350	|[Intersection of Two Arrays II](http://blog.csdn.net/daigualu/article/details/69666351)
+349	|	[Intersection of Two Arrays](http://blog.csdn.net/daigualu/article/details/69666198)
+500	|[Keyboard Row](http://blog.csdn.net/daigualu/article/details/71447614)
+217|	[Contains Duplicate](http://blog.csdn.net/daigualu/article/details/71123673)
+204	|	[Count Primes](http://blog.csdn.net/daigualu/article/details/71366483)
+202	|	[Happy Number](http://blog.csdn.net/daigualu/article/details/71433906)
+219	|[Contains Duplicate II](http://blog.csdn.net/daigualu/article/details/71166985)
+242	|[Valid Anagram](http://blog.csdn.net/daigualu/article/details/71358552)
+290	|[Word Pattern](http://blog.csdn.net/daigualu/article/details/71358552)
+205	|[Isomorphic Strings](http://blog.csdn.net/daigualu/article/details/71357419)
